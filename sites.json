@@ -1,206 +1,66 @@
 {
     "categories": [
         {
-            "name": "Newspapers",
-            "linkname": "newspapers",
-            "sites": [
-                {
-                    "name": "Chicago Sun-Times",
-                    "domain": "www.suntimes.com"
-                },
-                {
-                    "name": "Chicago Tribune",
-                    "domain": "www.chicagotribune.com"
-                },
-                {
-                    "name": "Daily News",
-                    "domain": "www.nydailynews.com"
-                },
-                {
-                    "name": "The Denver Post",
-                    "domain": "www.denverpost.com"
-                },
-                {
-                    "name": "The Guardian",
-                    "domain": "www.theguardian.com"
-                },
-                {
-                    "name": "Los Angeles Times",
-                    "domain": "www.latimes.com"
-                },
-                {
-                    "name": "The New York Post",
-                    "domain": "www.nypost.com"
-                },
-                {
-                    "name": "The New York Times",
-                    "domain": "www.nytimes.com"
-                },
-                {
-                    "name": "Der Spiegel",
-                    "domain": "www.spiegel.de"
-                },
-                {
-                    "name": "USA Today",
-                    "domain": "www.usatoday.com"
-                },
-                {
-                    "name": "The Wall Street Journal",
-                    "domain": "www.wsj.com"
-                },
-                {
-                    "name": "Washington Post",
-                    "domain": "www.washingtonpost.com"
-                }
-            ]
-        },
-        {
             "name": "News",
             "linkname": "news",
             "sites": [
                 {
                     "name": "ABC News",
-                    "domain": "abcnews.go.com"
+                    "domain": "www.abc.net.au"
                 },
                 {
-                    "name": "BBC",
-                    "domain": "www.bbc.com"
+                    "name": "News.com.au",
+                    "domain": "www.news.com.au"
                 },
                 {
-                    "name": "CBS Sports",
-                    "domain": "www.cbssports.com"
+                    "name": "Sydney Morning Herald",
+                    "domain": "www.smh.com.au"
                 },
                 {
-                    "name": "CNN",
-                    "domain": "www.cnn.com"
+                    "name": "The Australian",
+                    "domain": "www.theaustralian.com.au"
                 },
                 {
-                    "name": "Daily Mail",
-                    "domain": "www.dailymail.co.uk"
-                },
-                {
-                    "name": "ESPN",
-                    "domain": "espn.go.com"
-                },
-                {
-                    "name": "Forbes",
-                    "domain": "www.forbes.com"
-                },
-                {
-                    "name": "Fox News",
-                    "domain": "www.foxnews.com"
-                },
-                {
-                    "name": "NBC News",
-                    "domain": "www.nbcnews.com"
-                },
-                {
-                    "name": "NPR",
-                    "domain": "www.npr.org"
-                },
-                {
-                    "name": "Time Magazine",
-                    "domain": "time.com"
-                },
-                {
-                    "name": "TMZ",
-                    "domain": "www.tmz.com"
+                    "name": "Sky News",
+                    "domain": "www.skynews.com.au"
                 }
             ]
         },
         {
-            "name": "Social Media",
-            "linkname": "socialmedia",
+            "name": "Banks",
+            "linkname": "banks",
             "sites": [
                 {
-                    "name": "LinkedIn",
-                    "domain": "www.linkedin.com"
+                    "name": "ANZ",
+                    "domain": "www.anz.com"
                 },
                 {
-                    "name": "Facebook",
-                    "domain": "www.facebook.com"
+                    "name": "Commonwealth",
+                    "domain": "www.commbank.com.au"
                 },
                 {
-                    "name": "Twitter",
-                    "domain": "twitter.com"
+                    "name": "NAB",
+                    "domain": "www.nab.com.au"
                 },
                 {
-                    "name": "Pintrest",
-                    "domain": "www.pinterest.com"
+                    "name": "Westpac",
+                    "domain": "www.wespac.com.au"
                 },
                 {
-                    "name": "Tumblr",
-                    "domain": "www.tumblr.com"
+                    "name": "Bendigo Bank",
+                    "domain": "www.bendigobank.com.au"
                 },
                 {
-                    "name": "Instagram",
-                    "domain": "instagram.com"
+                    "name": "Citibank",
+                    "domain": "www.citibank.com.au"
                 },
                 {
-                    "name": "Reddit",
-                    "domain": "www.reddit.com"
+                    "name": "Bankwest",
+                    "domain": "www.bankwest.com.au"
                 },
                 {
-                    "name": "YouTube",
-                    "domain": "www.youtube.com"
-                },
-                {
-                    "name": "Vine",
-                    "domain": "vine.co"
-                },
-                {
-                    "name": "Vimeo",
-                    "domain": "vimeo.com"
-                },
-                {
-                    "name": "Match.com",
-                    "domain": "www.match.com"
-                },
-                {
-                    "name": "OkCupid",
-                    "domain": "www.okcupid.com"
-                }
-            ]
-        },
-        {
-            "name": "Commerce",
-            "linkname": "commerce",
-            "sites": [
-                {
-                    "name": "Apple",
-                    "domain": "store.apple.com"
-                },
-                {
-                    "name": "Amazon",
-                    "domain": "www.amazon.com"
-                },
-                {
-                    "name": "Best Buy",
-                    "domain": "www.bestbuy.com"
-                },
-                {
-                    "name": "eBay",
-                    "domain": "www.ebay.com"
-                },
-                {
-                    "name": "Target",
-                    "domain": "www.target.com"
-                },
-                {
-                    "name": "Walmart",
-                    "domain": "www.walmart.com"
-                },
-                {
-                    "name": "CVS",
-                    "domain": "www.cvs.com"
-                },
-                {
-                    "name": "Home Depot",
-                    "domain": "www.homedepot.com"
-                },
-                {
-                    "name": "Barnes & Noble",
-                    "domain": "www.barnesandnoble.com"
+                    "name": "HSBC",
+                    "domain": "www.hsbc.com.au"
                 }
             ]
         },
@@ -209,54 +69,16 @@
             "linkname": "travel",
             "sites": [
                 {
-                    "name": "Southwest",
-                    "domain": "www.southwest.com"
-                },
-                {
-                    "name": "Delta",
-                    "domain": "www.delta.com"
-                },
-                {
-                    "name": "American Airlines",
-                    "domain": "www.aa.com"
-                },
-                {
-                    "name": "Kayak",
-                    "domain": "www.kayak.com"
-                },
-                {
-                    "name": "Travelocity",
-                    "domain": "www.travelocity.com"
+                    "name": "Flight Center",
+                    "domain": "www.flightcenter.com.au"
                 },
                 {
                     "name": "Expedia",
-                    "domain": "www.expedia.com"
-                }
-            ]
-        },
-        {
-            "name": "Publishing Platforms",
-            "linkname": "publishing-platforms",
-            "sites": [
-                {
-                    "name": "Blogger",
-                    "domain": "www.blogger.com"
+                    "domain": "www.expedia.com.au"
                 },
                 {
-                    "name": "Medium",
-                    "domain": "medium.com"
-                },
-                {
-                    "name": "Squarespace",
-                    "domain": "squarespace.com"
-                },
-                {
-                    "name": "Tumblr",
-                    "domain": "www.tumblr.com"
-                },
-                {
-                    "name": "WordPress",
-                    "domain": "wordpress.com"
+                    "name": "Webjet",
+                    "domain": "www.webjet.com.au"
                 }
             ]
         },
@@ -265,204 +87,105 @@
             "linkname": "universities",
             "sites": [
                 {
-                    "name": "Brown",
-                    "domain": "www.brown.edu"
+                    "name": "University of Melbourne",
+                    "domain": "www.unimelb.edu.au"
                 },
                 {
-                    "name": "Columbia",
-                    "domain": "www.columbia.edu"
+                    "name": "University of Sydney",
+                    "domain": "www.sydney.edu.au"
                 },
                 {
-                    "name": "Cornell",
-                    "domain": "www.cornell.edu"
+                    "name": "University of Queensland",
+                    "domain": "www.uq.edu.au"
                 },
                 {
-                    "name": "Dartmouth",
-                    "domain": "dartmouth.edu"
+                    "name": "Australian National University",
+                    "domain": "www.anu.edu.au"
                 },
                 {
-                    "name": "Harvard",
-                    "domain": "www.harvard.edu"
+                    "name": "Deakin University",
+                    "domain": "www.deakin.edu.au"
                 },
                 {
-                    "name": "MIT",
-                    "domain": "web.mit.edu"
-                },
-                {
-                    "name": "Princeton",
-                    "domain": "www.princeton.edu"
-                },
-                {
-                    "name": "Stanford",
-                    "domain": "www.stanford.edu"
-                },
-                {
-                    "name": "University of Chicago",
-                    "domain": "www.uchicago.edu"
-                },
-                {
-                    "name": "University of Pennsylvania",
-                    "domain": "www.upenn.edu"
-                },
-                {
-                    "name": "Yale",
-                    "domain": "www.yale.edu"
+                    "name": "Monash University",
+                    "domain": "www.monash.edu.au"
                 }
             ]
         },
         {
-            "name": "US Government",
-            "linkname": "usgov",
+            "name": "Australian Government",
+            "linkname": "ausgov",
             "sites": [
                 {
-                    "name": "National Weather Service",
-                    "domain": "www.weather.gov"
+                    "name": "Australia.gov.au",
+                    "domain": "www.australia.gov.au"
                 },
                 {
-                    "name": "Internal Revenue Service",
-                    "domain": "www.irs.gov"
+                    "name": "Australian Federal Police",
+                    "domain": "www.afp.gov.au"
                 },
                 {
-                    "name": "HealthCare.gov",
-                    "domain": "www.healthcare.gov"
-                },
-                {
-                    "name": "USAJOBS",
-                    "domain": "www.usajobs.gov"
-                },
-                {
-                    "name": "Citizenship and Immigration Services",
-                    "domain": "www.uscis.gov"
-                },
-                {
-                    "name": "Social Security Administration",
-                    "domain": "www.ssa.gov"
-                },
-                {
-                    "name": "NASA",
-                    "domain": "www.nasa.gov"
-                },
-                {
-                    "name": "National Oceanic and Atmospheric Administration",
-                    "domain": "www.noaa.gov"
-                },
-                {
-                    "name": "Federal Trade Commission",
-                    "domain": "www.ftc.gov"
-                },
-                {
-                    "name": "Office of Personnel Management",
-                    "domain": "www.opm.gov"
-                },
-                {
-                    "name": "EPA",
-                    "domain": "www.epa.gov"
-                },
-                {
-                    "name": "Bureau of Labor Statistics",
-                    "domain": "www.bls.gov"
+                    "name": "Australian Parliament",
+                    "domain": "www.aph.gov.au"
                 }
             ]
         },
         {
-            "name": "Linux Distributions",
-            "linkname": "distributions",
+            "name": "Victorian Government",
+            "linkname": "vicgov",
             "sites": [
                 {
-                    "name": "Arch",
-                    "domain": "www.archlinux.org"
+                    "name": "Victorian Government",
+                    "domain": "www.vic.gov.au"
                 },
                 {
-                    "name": "CentOS",
-                    "domain": "www.centos.org"
+                    "name": "Public Transport Victoria",
+                    "domain": "www.ptv.vic.gov.au"
                 },
                 {
-                    "name": "Debian",
-                    "domain": "www.debian.org"
+                    "name": "Department of Health",
+                    "domain": "www.health.vic.gov.au"
                 },
                 {
-                    "name": "Fedora",
-                    "domain": "getfedora.org"
-                },
-                {
-                    "name": "Gentoo",
-                    "domain": "www.gentoo.org"
-                },
-                {
-                    "name": "Ubuntu",
-                    "domain": "www.ubuntu.com"
+                    "name": "VicRoads",
+                    "domain": "www.vicroads.vic.gov.au"
                 }
             ]
         },
         {
-            "name": "Programming Languages",
-            "linkname": "programming-languages",
+            "name": "NSW Government",
+            "linkname": "nswgov",
             "sites": [
                 {
-                    "name": "Clojure",
-                    "domain": "clojure.org"
+                    "name": "Transport NSW",
+                    "domain": "www.transportnsw.info"
                 },
                 {
-                    "name": "D",
-                    "domain": "dlang.org"
+                    "name": "NSW Health",
+                    "domain": "www.health.nsw.gov.au"
                 },
                 {
-                    "name": "Dart",
-                    "domain": "www.dartlang.org"
-                },
-                {
-                    "name": "Erlang",
-                    "domain": "www.erlang.org"
-                },
-                {
-                    "name": "Go",
-                    "domain": "golang.org"
-                },
-                {
-                    "name": "Haskell",
-                    "domain": "www.haskell.org"
-                },
-                {
-                    "name": "Julia",
-                    "domain": "julialang.org"
-                },
-                {
-                    "name": "Lua",
-                    "domain": "www.lua.org"
-                },
-                {
-                    "name": "Perl",
-                    "domain": "www.perl.org"
-                },
-                {
-                    "name": "PHP",
-                    "domain": "php.net"
-                },
-                {
-                    "name": "Python",
-                    "domain": "www.python.org"
-                },
-                {
-                    "name": "R",
-                    "domain": "www.r-project.org"
-                },
-                {
-                    "name": "Ruby",
-                    "domain": "www.ruby-lang.org"
-                },
-                {
-                    "name": "Rust",
-                    "domain": "www.rust-lang.org"
-                },
-                {
-                    "name": "Scala",
-                    "domain": "www.scala-lang.org"
-                },
-                {
-                    "name": "Schemers",
-                    "domain": "schemers.org"
+                    "name": "Roads and Maritime Services",
+                    "domain": "www.rms.nsw.gov.au"
                 }
-
+            ]
+        },
+        {
+            "name": "Queensland Government",
+            "linkname": "qldgov",
+            "sites": [
+                {
+                    "name": "Translink",
+                    "domain": "www.translink.com.au"
+                },
+                {
+                    "name": "Queensland Health",
+                    "domain": "www.health.qld.gov.au"
+                },
+                {
+                    "name": "Department of Transport and Main Roads",
+                    "domain": "www.tmr.qld.gov.au"
+                }
             ]
         }
     ]
