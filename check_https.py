@@ -16,7 +16,7 @@ from urllib.parse import urlsplit
 import jinja2
 
 PARALLELISM = 16
-USER_AGENT = "HTTPSWatch Bot (https://httpswatch.com)"
+USER_AGENT = "HTTPSWatch Bot (http://httpswatch.net.au)"
 
 log = logging.getLogger("check_https")
 
