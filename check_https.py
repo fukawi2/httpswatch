@@ -1,11 +1,14 @@
+#!/usr/bin/env python3
 import argparse
 import collections
 import concurrent.futures
 import errno
 import logging
 import json
+import os
 import random
 import re
+import shutil
 import socket
 import ssl
 import time
@@ -16,8 +19,17 @@ from urllib.parse import urlsplit
 import jinja2
 
 PARALLELISM = 16
-USER_AGENT = "HTTPSWatch Bot (http://httpswatch.net.au)"
+USER_AGENT = "HTTPSWatchAU Bot (https://httpswatchau.net)"
+ANALYTICS = """<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+ga('create', 'UA-342043-4', 'auto');
+ga('send', 'pageview');
+</script>
+"""
 log = logging.getLogger("check_https")
 
 
@@ -35,6 +47,38 @@ class Check:
         self.failed = True
         self.icon = "bad"
         self.description = desc
+
+
+class Not200(Exception):
+
+    def __init__(self, status):
+        super(Exception, self).__init__()
+        self.status = status
+
+
+def fetch_through_redirects(http, stop=None):
+    path = "/"
+    url = None
+    while True:
+        http.request("GET", path, headers={"User-Agent": USER_AGENT})
+        resp = http.getresponse()
+        if resp.status in (301, 302, 303, 307):
+            url = urlsplit(resp.getheader("Location"))
+            if stop is not None and stop(url):
+                break
+            resp.read()
+            resp.close()
+            if url.netloc and url.netloc != http.host:
+                # Probably should actually handle this...
+                raise ValueError("Site redirects to a different domain.")
+            path = url.path
+            if not path.startswith("/"):
+                path = "/" + path
+            continue
+        if resp.status != 200:
+            raise Not200(resp.status)
+        break
+    return url, resp
 
 
 def check_one_site(site):
@@ -97,23 +141,12 @@ def check_one_site(site):
     http = HTTPSConnection(domain, context=context)
     http.sock = secure_sock
     try:
-        url = "/"
-        # Follow all redirects.
-        while True:
-            http.request("GET", url, headers={"User-Agent": USER_AGENT})
-            resp = http.getresponse()
-            if resp.status in (301, 302, 303, 307):
-                url = resp.getheader("Location")
-                resp.read()
-                resp.close()
-                if url.startswith("http://"):
-                    https_load.fail("The HTTPS site redirects to HTTP.")
-                    return
-            elif resp.status != 200:
-                https_load.fail("The HTTPS site returns an error code on request.")
-                return
-            else:
-                break
+        def stop_on_http_or_domain_change(url):
+            return url.scheme == "http" or (url.netloc and url.netloc != domain)
+        final, resp = fetch_through_redirects(http, stop_on_http_or_domain_change)
+        if final is not None and final.scheme == "http":
+            https_load.fail("The HTTPS site redirects to HTTP.")
+            return
         good_sts = Check()
         checks.append(good_sts)
         sts = resp.getheader("Strict-Transport-Security")
@@ -134,6 +167,9 @@ def check_one_site(site):
     except socket.timeout:
         https_load.fail("Requesting HTTPS page times out.")
         return
+    except Not200 as e:
+        https_load.fail("The HTTPS site returns an error status ({}) on request.".format(e.status))
+        return
     except OSError as e:
         err_msg = errno.errorcode[e.errno]
         https_load.fail("Encountered error ({}) while loading HTTPS site.".format(err_msg))
@@ -146,29 +182,19 @@ def check_one_site(site):
     checks.append(http_redirect)
     http = HTTPConnection(domain)
     try:
-        path = "/"
-        # Follow all redirects.
-        while True:
-            http.request("GET", path, headers={"User-Agent": USER_AGENT})
-            resp = http.getresponse()
-            if resp.status in (301, 302, 303, 307):
-                url = urlsplit(resp.getheader("Location"))
-                resp.close()
-                if url.scheme == "https":
-                    http_redirect.succeed("HTTP site redirects to HTTPS.")
-                    break
-                if url.netloc and url.netloc != domain:
-                    http_redirect.fail("HTTP site redirects to a different domain.")
-                    break
-                path = url.path
-                if not path.startswith("/"):
-                    url = "/" + url
-            else:
-                http_redirect.fail("HTTP site doesn't redirect to HTTPS.")
-                mediocre = True
-                break
+        def stop_on_https(url):
+            return url.scheme == "https"
+        final, resp = fetch_through_redirects(http, stop_on_https)
+        if final is not None and final.scheme == "https":
+            http_redirect.succeed("HTTP site redirects to HTTPS.")
+        else:
+            http_redirect.fail("HTTP site doesn't redirect to HTTPS.")
+            mediocre = True
     except HTTPException:
         http_redirect.fail("Encountered HTTP error while loading HTTP site.")
+        return
+    except Not200 as e:
+        http_redirect.fail("The HTTP site returns an error status ({}) on request.".format(e.status))
         return
     except OSError as e:
         err_msg = errno.errorcode[e.errno]
@@ -180,17 +206,20 @@ def check_one_site(site):
     site["status"] = "mediocre" if mediocre else "good"
 
 
-def check_sites(sites_file):
-    # Read list of sites.
-    with open(sites_file, encoding="utf-8") as fp:
-        data = json.load(fp)
-
+def regenerate_everything():
+    with open("config/meta.json", "r", encoding="utf-8") as fp:
+        meta = json.load(fp)
     futures = []
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=PARALLELISM)
-    with executor:
-        for cat in data["categories"]:
+    for listing in meta["listings"]:
+        if "external" in listing:
+            continue
+        with open("config/{}.json".format(listing["shortname"]), encoding="utf-8") as fp:
+            listing["data"] = json.load(fp)
+        for cat in listing["data"]["categories"]:
             for site in cat["sites"]:
                 futures.append(executor.submit(check_one_site, site))
+    with executor:
         while True:
             done, not_done = concurrent.futures.wait(futures, timeout=1)
             print("{}/{}".format(len(done), len(done) + len(not_done)))
@@ -200,16 +229,16 @@ def check_sites(sites_file):
             # This will raise an exception if check_one_site did.
             f.result()
 
-    total_status = collections.Counter()
-    for cat in data["categories"]:
-        cat_status = collections.Counter()
-        for site in cat["sites"]:
-            cat_status[site["status"]] += 1
-        cat["counts"] = cat_status
-        total_status.update(cat_status)
-    data["counts"] = total_status
+    for listing in meta["listings"]:
+        if "external" in listing:
+            continue
+        for cat in listing["data"]["categories"]:
+            cat_status = collections.Counter()
+            for site in cat["sites"]:
+                cat_status[site["status"]] += 1
+            cat["counts"] = cat_status
 
-    return data
+    return meta
 
 
 def encode_check(o):
@@ -221,25 +250,37 @@ def encode_check(o):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cached", action="store_true")
-    parser.add_argument("sites", default="sites.json", nargs="?")
 
     args = parser.parse_args()
 
     if args.cached:
         with open("cache.json", "r", encoding="utf-8") as fp:
-            data = json.load(fp)
+            meta = json.load(fp)
     else:
-        data = check_sites(args.sites)
+        meta = regenerate_everything()
         with open("cache.json", "w", encoding="utf-8") as fp:
-            json.dump(data, fp, default=encode_check)
+            json.dump(meta, fp, default=encode_check)
 
     # Write out results.
-    env = jinja2.Environment()
-    with open("index.html.jinja", encoding="utf-8") as fp:
-        tmp = env.from_string(fp.read())
-    update_time = time.strftime("%Y-%m-%d %H:%MZ", time.gmtime())
-    with open("index.html", "w", encoding="utf-8") as fp:
-        fp.write(tmp.render(data=data, update_time=update_time))
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
+    env.globals["analytics"] = ANALYTICS
+    env.globals["update_time"] = time.strftime("%Y-%m-%d %H:%MZ", time.gmtime())
+    env.globals["meta"] = meta
+    try:
+        os.mkdir("out")
+    except FileExistsError:
+        pass
+    with open("out/about.html", "w", encoding="utf-8") as fp:
+        fp.write(env.get_template("about.html.jinja").render())
+    listing_tmp = env.get_template("listing.html.jinja")
+    for listing in meta["listings"]:
+        if "external" in listing:
+            continue
+        out_fn = "out/{}.html".format(listing["shortname"])
+        with open(out_fn, "w", encoding="utf-8") as fp:
+            fp.write(listing_tmp.render(listing=listing))
+        if meta["default_page"] == listing["shortname"]:
+            shutil.copy(out_fn, "out/index.html")
 
 
 if __name__ == "__main__":
