@@ -169,6 +169,24 @@
             ]
         },
         {
+            "name": "Political Parties",
+            "linkname": "poli",
+            "sites": [
+                {
+                    "name": "Australian Labor Party",
+                    "domain": "www.alp.org.au"
+                },
+                {
+                    "name": "Liberal Party of Australia",
+                    "domain": "www.liberal.org.au"
+                },
+                {
+                    "name": "The Greens",
+                    "domain": "greens.org.au"
+                }
+            ]
+        },
+        {
             "name": "Australian Government",
             "linkname": "ausgov",
             "sites": [
