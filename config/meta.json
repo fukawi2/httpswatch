@@ -2,24 +2,16 @@
     "default_page": "global",
     "listings": [
         {
-            "name": "Global",
-            "shortname": "global"
-        },
-        {
-            "name": "United States",
-            "shortname": "us"
-        },
-        {
             "name": "Australia",
-            "external": "http://httpswatchau.net/"
+            "shortname": "au"
         },
         {
             "name": "New Zealand",
             "external": "https://httpswatch.nz/"
         },
         {
-            "name": "Programming",
-            "shortname": "programming"
+            "name": "Global",
+            "external": "https://httpswatch.com/"
         }
     ]
 }
