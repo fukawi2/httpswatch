@@ -1,2 +1,4 @@
 .tox/
 *.egg-info/
+/cache.json
+out/
