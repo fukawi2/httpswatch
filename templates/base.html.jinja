@@ -2,13 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="HTTPSWatch tracks the HTTPS support of prominent websites.">
-    <title>HTTPSWatch</title>
+    <meta name="description" content="HTTPSWatchAU tracks the HTTPS support of prominent Australian websites.">
+    <title>HTTPSWatchAU</title>
     <link rel="stylesheet" type="text/css" href="/static/main.css">
     {% block extra_head %}{% endblock %}
   </head>
   <body>
-    {{ analytics }}
     <header>
       <nav class="header-nav">
         <ul class="header-nav-list">
@@ -27,7 +26,7 @@
     <div id="content-wrapper">
       {% block body %}{% endblock %}
       <footer>
-        Created by <a href="http://www.benjamin-peterson.org">Benjamin Peterson</a>. Last updated <time>{{ update_time }}</time>.
+        Created by <a href="http://www.benjamin-peterson.org">Benjamin Peterson</a>. Forked by <a href="http://www.github.com/fukawi2/">Phillip Smith</a>.<br />Last updated <time>{{ update_time }}</time>.
       </footer>
     </div>
   </body>
