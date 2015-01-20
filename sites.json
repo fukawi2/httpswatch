@@ -157,6 +157,10 @@
             "linkname": "ausgov",
             "sites": [
                 {
+                    "name": "myGov",
+                    "domain": "my.gov.au"
+                },
+                {
                     "name": "Australia.gov.au",
                     "domain": "www.australia.gov.au"
                 },
