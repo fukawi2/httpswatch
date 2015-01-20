@@ -105,6 +105,10 @@
                 {
                     "name": "linux.conf.au",
                     "domain": "linux.conf.au"
+                },
+                {
+                    "name": "HTTPSWatchAU",
+                    "domain": "httpswatchau.net"
                 }
             ]
         },
