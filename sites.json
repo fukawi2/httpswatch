@@ -121,6 +121,14 @@
                     "domain": "www.flightcentre.com.au"
                 },
                 {
+                    "name": "Qantas",
+                    "domain": "www.qantas.com.au"
+                },
+                {
+                    "name": "Tourism Australia",
+                    "domain": "www.australia.com"
+                },
+                {
                     "name": "Expedia",
                     "domain": "www.expedia.com.au"
                 },
