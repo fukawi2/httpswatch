@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="HTTPSWatch tracks the HTTPS support of prominent websites.">
-    <title>HTTPSWatch</title>
+    <meta name="description" content="HTTPSWatchAU tracks the HTTPS support of prominent Australian websites.">
+    <title>HTTPSWatchAU</title>
     <link rel="stylesheet" type="text/css" href="/static/main.css">
     <script type="text/javascript">
     (function () {
@@ -33,8 +33,8 @@
 
     </script>
 
-    <h1>HTTPSWatch</h1>
-    <p>HTTPSWatch tracks the HTTPS support of prominent websites. Click to show details about a site&rsquo;s HTTPS support. See the <a href="#about">About section</a> for more information.
+    <h1>HTTPSWatchAU</h1>
+    <p>HTTPSWatchAU tracks the HTTPS support of prominent websites. Click to show details about a site&rsquo;s HTTPS support. See the <a href="#about">About section</a> for more information.
 
     <nav class="main-toc">
       <ul class="nav-list">
@@ -78,23 +78,16 @@
     {% endfor %}
 
     <section id="about">
-      <h2>About HTTPSWatch</h2>
-      <p>HTTPSWatch was inspired by Alex Gaynor&rsquo;s <a href="https://alexgaynor.net/2014/nov/12/state-of-news-tls/">blog</a> <a href="https://alexgaynor.net/2014/dec/30/state-of-news-tls-part-ii/">posts</a> about news sites&rsquo; HTTPS support.
-      <h3>Ratings</h3>
-      <p>HTTPSWatch assigns every tracked site a rating approximating the quality of its HTTPS support. If a verified TLS connection cannot be established or no page can be loaded over TLS, the site is given the <span class="site-grade-bad">Bad</span> rating. The <span class="site-grade-mediocre">Mediocre</span> rating means a TLS connection can be established but there are quality issues with the site&rsquo;s implementation of HTTPS (e.g. the HTTP site doesn&rsquo;t redirect to HTTPS or the <code>Strict-Transport-Security</code> header isn&rsquo;t set). If everything looks good, a <span class="site-grade-good">Good</span> rating is given.
-      <h3>Limitations</h3>  
-      <p>Some sites which HTTPSWatch rates as <span class="site-grade-mediocre">Mediocre</span> are actually unusable in a browser. This is mostly due to <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent">mixed content</a>, which HTTPSWatch doesn&rsquo;t detect.
-      <p>Aside from the basic hostname verification checks, HTTPSWatch doesn&rsquo;t attempt to evaluate the quality of the TLS connection. A link to the <a href="https://www.ssllabs.com/ssltest/">SSL Labs server TLS testing tool</a> is provided for each site.
-      <h3>Site Curation</h3>
-      <p>Obviously, it&rsquo;s not practical to list every university or news site in the world. HTTPSWatch&rsquo;s goal is to list several representative sites for each category. Usually these are the most popular sites, so HTTPS support on them affects the most users. The hope is that if the sites listed here have high quality HTTPS implementations, the others will follow. Each category should not exceed 20-30 sites.
+      <h2>About HTTPSWatchAU</h2>
+      <p>HTTPSWatchAU is a fork of <a href='https://httpswatch.com'>HTTPSWatch</a> by <a href="http://www.benjamin-peterson.org">Benjamin Peterson</a>.
       <h3>How to Properly Setup HTTPS</h3>
       <p>There&rsquo;s a lot of information on the web about this, which may be found by searching. The <a href="https://www.eff.org/https-everywhere/deploying-https">EFF&rsquo;s guide</a> is a good starting place. <a href="https://18f.gsa.gov/">18F</a> has information about their TLS deployment standards including reusable nginx configuration files <a href="https://github.com/18F/tls-standards">on GitHub</a>.
       <h3>Code</h3>
-      <p>The code is available on <a href="https://github.com/gutworth/httpswatch">GitHub</a> and pull requests are welcome.
+      <p>HTTPSWatchAU code is available on <a href="https://github.com/fukawi2/httpswatch">GitHub</a> and the original HTTPSWatch is also on <a href="https://github.com/gutworth/httpswatch">GitHub</a>.
     </section>
 
     <footer>
-      Created by <a href="http://www.benjamin-peterson.org">Benjamin Peterson</a>. Last updated <time>{{ update_time }}</time>.
+      HTTPSWatch created by <a href="http://www.benjamin-peterson.org">Benjamin Peterson</a>, HTTPSWatchAU forked by Phillip Smith. Last updated <time>{{ update_time }}</time>.
     </footer>
   </body>
 </html>
