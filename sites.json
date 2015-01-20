@@ -83,6 +83,28 @@
             ]
         },
         {
+            "name": "Technology",
+            "linkname": "tech",
+            "sites": [
+                {
+                    "name": "Whirlpool",
+                    "domain": "whirlpool.net.au"
+                },
+                {
+                    "name": "Lifehacker",
+                    "domain": "www.lifehacker.com.au"
+                },
+                {
+                    "name": "Gizmodo",
+                    "domain": "www.gizmodo.com.au"
+                },
+                {
+                    "name": "iTnews",
+                    "domain": "www.itnews.com.au"
+                }
+            ]
+        },
+        {
             "name": "Travel",
             "linkname": "travel",
             "sites": [
