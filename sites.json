@@ -65,6 +65,24 @@
             ]
         },
         {
+            "name": "Shopping",
+            "linkname": "shopping",
+            "sites": [
+                {
+                    "name": "eBay",
+                    "domain": "www.ebay.com.au"
+                },
+                {
+                    "name": "Gumtree",
+                    "domain": "www.gumtree.com.au"
+                },
+                {
+                    "name": "Realestate.com.au",
+                    "domain": "www.realestate.com.au"
+                }
+            ]
+        },
+        {
             "name": "Travel",
             "linkname": "travel",
             "sites": [
