@@ -101,6 +101,10 @@
                 {
                     "name": "iTnews",
                     "domain": "www.itnews.com.au"
+                },
+                {
+                    "name": "linux.conf.au",
+                    "domain": "linux.conf.au"
                 }
             ]
         },
