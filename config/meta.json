@@ -6,6 +6,10 @@
             "shortname": "au"
         },
         {
+            "name": "Government",
+            "shortname": "augovt"
+        },
+        {
             "name": "New Zealand",
             "external": "https://httpswatch.nz/"
         },
