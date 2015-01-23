@@ -23,6 +23,10 @@
                 {
                     "name": "Sky News",
                     "domain": "www.skynews.com.au"
+                },
+                {
+                    "name": "The Guardian",
+                    "domain": "www.theguardian.com.au/"
                 }
             ]
         },
