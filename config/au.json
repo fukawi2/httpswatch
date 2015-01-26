@@ -104,6 +104,24 @@
             ]
         },
         {
+            "name": "Internet service providers",
+            "linkname": "isps",
+            "sites": [
+                {
+                    "name": "Internode",
+                    "domain": "www.internode.on.net"
+                },
+                {
+                    "name": "TPG",
+                    "domain": "www.tpg.com.au"
+                },
+                {
+                    "name": "iiNet",
+                    "domain": "www.iinet.net.au"
+                }
+            ]
+        },
+        {
             "name": "Technology",
             "linkname": "tech",
             "sites": [
