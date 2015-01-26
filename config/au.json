@@ -78,6 +78,10 @@
                 {
                     "name": "HSBC",
                     "domain": "www.hsbc.com.au"
+                },
+                {
+                    "name": "stgeorge",
+                    "domain": "www.stgeorge.com.au"
                 }
             ]
         },
