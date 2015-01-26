@@ -100,6 +100,26 @@
                 {
                     "name": "Realestate.com.au",
                     "domain": "www.realestate.com.au"
+                },
+                {
+                    "name": "Woolworths",
+                    "domain": "www.woolworths.com.au"
+                },
+                {
+                    "name": "Coles",
+                    "domain": "http://www.coles.com.au"
+                },
+                {
+                    "name": "Target",
+                    "domain": "www.target.com.au"
+                },
+                {
+                    "name": "Big W",
+                    "domain": "www.bigw.com.au"
+                },
+                {
+                    "name": "JB Hifi",
+                    "domain": "www.jbhifi.com.au"
                 }
             ]
         },
