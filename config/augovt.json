@@ -15,6 +15,14 @@
                 {
                     "name": "The Greens",
                     "domain": "greens.org.au"
+                },
+                {
+                    "name": "The Nationals",
+                    "domain": "www.nationals.org.au"
+                },
+                {
+                    "name": "Pirate Party of Australia",
+                    "domain": "pirateparty.org.au"
                 }
             ]
         },
