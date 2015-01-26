@@ -10,12 +10,20 @@
             "shortname": "augovt"
         },
         {
+            "name": "Global",
+            "external": "https://httpswatch.com/global"
+        },
+        {
+            "name": "United States",
+            "external": "https://httpswatch.com/us"
+        },
+        {
             "name": "New Zealand",
             "external": "https://httpswatch.nz/"
         },
         {
-            "name": "Global",
-            "external": "https://httpswatch.com/"
+            "name": "Sweden",
+            "external": "https://httpswatch.com/se"
         }
     ]
 }
