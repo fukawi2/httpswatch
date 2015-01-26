@@ -12,7 +12,7 @@
                     "name": "SBS",
                     "domain": "www.sbs.com.au",
                     "twitter": "SBS"
-                }                ,
+                },
                 {
                     "name": "News.com.au",
                     "domain": "www.news.com.au"
@@ -32,6 +32,14 @@
                 {
                     "name": "The Guardian",
                     "domain": "www.theguardian.com.au"
+                },
+                {
+                    "name": "Mumbrella",
+                    "domain": "mumbrella.com.au"
+                },
+                {
+                    "name": "Crikey",
+                    "domain": "www.crikey.com.au"
                 }
             ]
         },
