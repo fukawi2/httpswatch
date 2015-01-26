@@ -9,6 +9,11 @@
                     "domain": "www.abc.net.au"
                 },
                 {
+                    "name": "SBS",
+                    "domain": "www.sbs.com.au",
+                    "twitter": "SBS"
+                }                ,
+                {
                     "name": "News.com.au",
                     "domain": "www.news.com.au"
                 },
