@@ -49,6 +49,18 @@
                 {
                     "name": "Australian Parliament",
                     "domain": "www.aph.gov.au"
+                },
+                {
+                    "name": "Australian Bureau of Statistics",
+                    "domain": "www.abs.gov.au"
+                },
+                {
+                    "name": "Department of Human Services",
+                    "domain": "www.humanservices.gov.au"
+                },
+                {
+                    "name": "Bureau of Meteorology",
+                    "domain": "www.bom.gov.au"
                 }
             ]
         },
