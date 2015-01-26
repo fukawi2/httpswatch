@@ -169,6 +169,14 @@
                 {
                     "name": "Monash University",
                     "domain": "www.monash.edu.au"
+                },
+                {
+                    "name": "The University of Adelaide",
+                    "domain": "www.adelaide.edu.au"
+                },
+                {
+                    "name": "University of South Australia",
+                    "domain": "www.unisa.edu.au"
                 }
             ]
         }
