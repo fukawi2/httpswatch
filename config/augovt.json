@@ -6,23 +6,28 @@
             "sites": [
                 {
                     "name": "Australian Labor Party",
-                    "domain": "www.alp.org.au"
+                    "domain": "www.alp.org.au",
+                    "twitter": "australianlabor"
                 },
                 {
                     "name": "Liberal Party of Australia",
-                    "domain": "www.liberal.org.au"
+                    "domain": "www.liberal.org.au",
+                    "twitter": "liberalaus"
                 },
                 {
                     "name": "The Greens",
-                    "domain": "greens.org.au"
+                    "domain": "greens.org.au",
+                    "twitter": "greens"
                 },
                 {
                     "name": "The Nationals",
-                    "domain": "www.nationals.org.au"
+                    "domain": "www.nationals.org.au",
+                    "twitter": "the_nationals"
                 },
                 {
                     "name": "Pirate Party of Australia",
-                    "domain": "pirateparty.org.au"
+                    "domain": "pirateparty.org.au",
+                    "twitter": "piratepartyau"
                 }
             ]
         },
