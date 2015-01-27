@@ -254,7 +254,7 @@
                 {
                     "name": "MYOB",
                     "domain": "myob.com.au",
-                    "twitter": ""
+                    "twitter": "myob"
                 },
                 {
                     "name": "Technologyone corp",
@@ -271,12 +271,12 @@
                 {
                     "name": "Flight Centre",
                     "domain": "www.flightcentre.com.au",
-                    "twitter": ""
+                    "twitter": "flightcentreau"
                 },
                 {
                     "name": "Qantas",
                     "domain": "www.qantas.com.au",
-                    "twitter": ""
+                    "twitter": "qantas"
                 },
                 {
                     "name": "Tourism Australia",
@@ -285,12 +285,12 @@
                 {
                     "name": "Expedia",
                     "domain": "www.expedia.com.au",
-                    "twitter": ""
+                    "twitter": "expedia_au"
                 },
                 {
                     "name": "Webjet",
                     "domain": "www.webjet.com.au",
-                    "twitter": ""
+                    "twitter": "webjet_au"
                 }
             ]
         },
@@ -321,7 +321,7 @@
                 {
                     "name": "Deakin University",
                     "domain": "www.deakin.edu.au",
-                    "twitter": ""
+                    "twitter": "deakin"
                 },
                 {
                     "name": "Monash University",
