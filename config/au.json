@@ -17,22 +17,22 @@
                 {
                     "name": "News.com.au",
                     "domain": "www.news.com.au",
-                    "twitter": ""
+                    "twitter": "newscomauhq"
                 },
                 {
                     "name": "Sydney Morning Herald",
                     "domain": "www.smh.com.au",
-                    "twitter": ""
+                    "twitter": "smh"
                 },
                 {
                     "name": "The Australian",
                     "domain": "www.theaustralian.com.au",
-                    "twitter": ""
+                    "twitter": "australian"
                 },
                 {
                     "name": "Sky News",
                     "domain": "www.skynews.com.au",
-                    "twitter": ""
+                    "twitter": "skynewsaust"
                 },
                 {
                     "name": "The Guardian",
@@ -58,52 +58,52 @@
                 {
                     "name": "ANZ",
                     "domain": "www.anz.com",
-                    "twitter": ""
+                    "twitter": "anz_au"
                 },
                 {
                     "name": "Commonwealth",
                     "domain": "www.commbank.com.au",
-                    "twitter": ""
+                    "twitter": "commbank"
                 },
                 {
                     "name": "NAB",
                     "domain": "www.nab.com.au",
-                    "twitter": ""
+                    "twitter": "NAB"
                 },
                 {
                     "name": "Westpac",
                     "domain": "www.westpac.com.au",
-                    "twitter": ""
+                    "twitter": "westpac"
                 },
                 {
                     "name": "Bendigo Bank",
                     "domain": "www.bendigobank.com.au",
-                    "twitter": ""
+                    "twitter": "bendigobank"
                 },
                 {
                     "name": "Citibank",
                     "domain": "www.citibank.com.au",
-                    "twitter": ""
+                    "twitter": "citibankaus"
                 },
                 {
                     "name": "Bankwest",
                     "domain": "www.bankwest.com.au",
-                    "twitter": ""
+                    "twitter": "bankwest"
                 },
                 {
                     "name": "HSBC",
                     "domain": "www.hsbc.com.au",
-                    "twitter": ""
+                    "twitter": "hsbc_aus_help"
                 },
                 {
                     "name": "St.George",
                     "domain": "www.stgeorge.com.au",
-                    "twitter": ""
+                    "twitter": "stgeorgebank"
                 },
                 {
                     "name": "Bank of Queensland",
                     "domain": "www.boq.com.au",
-                    "twitter": ""
+                    "twitter": "boq"
                 }
             ]
         },
@@ -118,12 +118,11 @@
                 {
                     "name": "Gumtree",
                     "domain": "www.gumtree.com.au",
-                    "twitter": ""
+                    "twitter": "gumtreeau"
                 },
                 {
                     "name": "Realestate.com.au",
-                    "domain": "www.realestate.com.au",
-                    "twitter": ""
+                    "domain": "www.realestate.com.au"
                 },
                 {
                     "name": "Myer",
