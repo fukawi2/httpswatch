@@ -16,19 +16,23 @@
                 },
                 {
                     "name": "News.com.au",
-                    "domain": "www.news.com.au"
+                    "domain": "www.news.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Sydney Morning Herald",
-                    "domain": "www.smh.com.au"
+                    "domain": "www.smh.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "The Australian",
-                    "domain": "www.theaustralian.com.au"
+                    "domain": "www.theaustralian.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Sky News",
-                    "domain": "www.skynews.com.au"
+                    "domain": "www.skynews.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "The Guardian",
@@ -53,43 +57,53 @@
             "sites": [
                 {
                     "name": "ANZ",
-                    "domain": "www.anz.com"
+                    "domain": "www.anz.com",
+                    "twitter": ""
                 },
                 {
                     "name": "Commonwealth",
-                    "domain": "www.commbank.com.au"
+                    "domain": "www.commbank.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "NAB",
-                    "domain": "www.nab.com.au"
+                    "domain": "www.nab.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Westpac",
-                    "domain": "www.westpac.com.au"
+                    "domain": "www.westpac.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Bendigo Bank",
-                    "domain": "www.bendigobank.com.au"
+                    "domain": "www.bendigobank.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Citibank",
-                    "domain": "www.citibank.com.au"
+                    "domain": "www.citibank.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Bankwest",
-                    "domain": "www.bankwest.com.au"
+                    "domain": "www.bankwest.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "HSBC",
-                    "domain": "www.hsbc.com.au"
+                    "domain": "www.hsbc.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "St.George",
-                    "domain": "www.stgeorge.com.au"
+                    "domain": "www.stgeorge.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Bank of Queensland",
-                    "domain": "www.boq.com.au"
+                    "domain": "www.boq.com.au",
+                    "twitter": ""
                 }
             ]
         },
@@ -103,43 +117,53 @@
                 },
                 {
                     "name": "Gumtree",
-                    "domain": "www.gumtree.com.au"
+                    "domain": "www.gumtree.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Realestate.com.au",
-                    "domain": "www.realestate.com.au"
+                    "domain": "www.realestate.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Myer",
-                    "domain": "www.myer.com.au"
+                    "domain": "www.myer.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Woolworths",
-                    "domain": "www.woolworths.com.au"
+                    "domain": "www.woolworths.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Coles",
-                    "domain": "http://www.coles.com.au"
+                    "domain": "http://www.coles.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Target",
-                    "domain": "www.target.com.au"
+                    "domain": "www.target.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Big W",
-                    "domain": "www.bigw.com.au"
+                    "domain": "www.bigw.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "JB Hifi",
-                    "domain": "www.jbhifi.com.au"
+                    "domain": "www.jbhifi.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Bunnings Warehouse",
-                    "domain": "www.bunnings.com.au"
+                    "domain": "www.bunnings.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Officeworks",
-                    "domain": "www.officeworks.com.au"
+                    "domain": "www.officeworks.com.au",
+                    "twitter": ""
                 }
             ]
         },
@@ -149,31 +173,38 @@
             "sites": [
                 {
                     "name": "Internode",
-                    "domain": "www.internode.on.net"
+                    "domain": "www.internode.on.net",
+                    "twitter": ""
                 },
                 {
                     "name": "TPG",
-                    "domain": "www.tpg.com.au"
+                    "domain": "www.tpg.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "iiNet",
-                    "domain": "www.iinet.net.au"
+                    "domain": "www.iinet.net.au",
+                    "twitter": ""
                 },
                 {
                     "name": "westnet",
-                    "domain": "www.westnet.com.au"
+                    "domain": "www.westnet.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Telstra",
-                    "domain": "www.telstra.com.au"
+                    "domain": "www.telstra.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Optus",
-                    "domain": "www.optus.com.au"
+                    "domain": "www.optus.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "NBNco",
-                    "domain": "www.optus.com.au"
+                    "domain": "www.optus.com.au",
+                    "twitter": ""
                 }
             ]
         },
@@ -183,43 +214,53 @@
             "sites": [
                 {
                     "name": "Whirlpool",
-                    "domain": "whirlpool.net.au"
+                    "domain": "whirlpool.net.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Lifehacker",
-                    "domain": "www.lifehacker.com.au"
+                    "domain": "www.lifehacker.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Gizmodo",
-                    "domain": "www.gizmodo.com.au"
+                    "domain": "www.gizmodo.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "iTnews",
-                    "domain": "www.itnews.com.au"
+                    "domain": "www.itnews.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "linux.conf.au",
-                    "domain": "linux.conf.au"
+                    "domain": "linux.conf.au",
+                    "twitter": ""
                 },
                 {
                     "name": "HTTPSWatchAU",
-                    "domain": "httpswatch.com.au"
+                    "domain": "httpswatch.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Halfbrick Studios",
-                    "domain": "halfbrick.com"
+                    "domain": "halfbrick.com",
+                    "twitter": "halfbrick"
                 },
                 {
                     "name": "Atlassian",
-                    "domain": "www.atlassian.com"
+                    "domain": "www.atlassian.com",
+                    "twitter": "atlassian"
                 },
                 {
                     "name": "MYOB",
-                    "domain": "myob.com.au"
+                    "domain": "myob.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Technologyone corp",
-                    "domain": "www.technologyonecorp.com"
+                    "domain": "www.technologyonecorp.com",
+                    "twitter": ""
                 }
 
             ]
@@ -230,11 +271,13 @@
             "sites": [
                 {
                     "name": "Flight Centre",
-                    "domain": "www.flightcentre.com.au"
+                    "domain": "www.flightcentre.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Qantas",
-                    "domain": "www.qantas.com.au"
+                    "domain": "www.qantas.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Tourism Australia",
@@ -242,11 +285,13 @@
                 },
                 {
                     "name": "Expedia",
-                    "domain": "www.expedia.com.au"
+                    "domain": "www.expedia.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Webjet",
-                    "domain": "www.webjet.com.au"
+                    "domain": "www.webjet.com.au",
+                    "twitter": ""
                 }
             ]
         },
@@ -256,35 +301,43 @@
             "sites": [
                 {
                     "name": "University of Melbourne",
-                    "domain": "www.unimelb.edu.au"
+                    "domain": "www.unimelb.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "University of Sydney",
-                    "domain": "www.sydney.edu.au"
+                    "domain": "www.sydney.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "University of Queensland",
-                    "domain": "www.uq.edu.au"
+                    "domain": "www.uq.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Australian National University",
-                    "domain": "www.anu.edu.au"
+                    "domain": "www.anu.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Deakin University",
-                    "domain": "www.deakin.edu.au"
+                    "domain": "www.deakin.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Monash University",
-                    "domain": "www.monash.edu.au"
+                    "domain": "www.monash.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "The University of Adelaide",
-                    "domain": "www.adelaide.edu.au"
+                    "domain": "www.adelaide.edu.au",
+                    "twitter": ""
                 },
                 {
                     "name": "University of South Australia",
-                    "domain": "www.unisa.edu.au"
+                    "domain": "www.unisa.edu.au",
+                    "twitter": ""
                 }
             ]
         },
@@ -294,15 +347,18 @@
             "sites": [
                 {
                     "name": "AGL Energy",
-                    "domain": "www.agl.com.au"
+                    "domain": "www.agl.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "EnergyAustralia",
-                    "domain": "www.energyaustralia.com.au"
+                    "domain": "www.energyaustralia.com.au",
+                    "twitter": ""
                 },
                 {
                     "name": "Origin Energy",
-                    "domain": "www.originenergy.com.au"
+                    "domain": "www.originenergy.com.au",
+                    "twitter": ""
                 }
             ]
         }
