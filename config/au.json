@@ -82,6 +82,10 @@
                 {
                     "name": "St.George",
                     "domain": "www.stgeorge.com.au"
+                },
+                {
+                    "name": "Bank of Queensland",
+                    "domain": "www.boq.com.au"
                 }
             ]
         },
@@ -102,6 +106,10 @@
                     "domain": "www.realestate.com.au"
                 },
                 {
+                    "name": "Myer",
+                    "domain": "www.myer.com.au"
+                },
+                {
                     "name": "Woolworths",
                     "domain": "www.woolworths.com.au"
                 },
@@ -120,11 +128,19 @@
                 {
                     "name": "JB Hifi",
                     "domain": "www.jbhifi.com.au"
+                },
+                {
+                    "name": "Bunnings Warehouse",
+                    "domain": "www.bunnings.com.au"
+                },
+                {
+                    "name": "Officeworks",
+                    "domain": "www.officeworks.com.au"
                 }
             ]
         },
         {
-            "name": "Internet service providers",
+            "name": "Internet Service Providers",
             "linkname": "isps",
             "sites": [
                 {
@@ -138,6 +154,18 @@
                 {
                     "name": "iiNet",
                     "domain": "www.iinet.net.au"
+                },
+                {
+                    "name": "westnet",
+                    "domain": "www.westnet.com.au"
+                },
+                {
+                    "name": "Telstra",
+                    "domain": "www.telstra.com.au"
+                },
+                {
+                    "name": "Optus",
+                    "domain": "www.optus.com.au"
                 }
             ]
         },
@@ -168,7 +196,24 @@
                 {
                     "name": "HTTPSWatchAU",
                     "domain": "httpswatch.com.au"
+                },
+                {
+                    "name": "Halfbrick Studios",
+                    "domain": "halfbrick.com"
+                },
+                {
+                    "name": "Atlassian",
+                    "domain": "www.atlassian.com"
+                },
+                {
+                    "name": "MYOB",
+                    "domain": "myob.com.au"
+                },
+                {
+                    "name": "Technologyone corp",
+                    "domain": "www.technologyonecorp.com"
                 }
+
             ]
         },
         {
@@ -232,6 +277,24 @@
                 {
                     "name": "University of South Australia",
                     "domain": "www.unisa.edu.au"
+                }
+            ]
+        },
+        {
+            "name": "Utilities",
+            "linkname": "utilities",
+            "sites": [
+                {
+                    "name": "AGL Energy",
+                    "domain": "www.agl.com.au"
+                },
+                {
+                    "name": "EnergyAustralia",
+                    "domain": "www.energyaustralia.com.au"
+                },
+                {
+                    "name": "Origin Energy",
+                    "domain": "www.originenergy.com.au"
                 }
             ]
         }
