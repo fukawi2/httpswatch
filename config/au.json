@@ -221,7 +221,8 @@
                     "twitter": "whirlpoolnetau"
                 },
                 {
-                    "name": "ITnews",
+                    "_comment": "iTnews is the correct capitalization according to their website",
+                    "name": "iTnews",
                     "domain": "www.itnews.com.au",
                     "twitter": "itnews_au"
                 },
