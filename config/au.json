@@ -173,37 +173,36 @@
                 {
                     "name": "Internode",
                     "domain": "www.internode.on.net",
-                    "twitter": ""
+                    "twitter": "Internode"
                 },
                 {
                     "name": "TPG",
-                    "domain": "www.tpg.com.au",
-                    "twitter": ""
+                    "domain": "www.tpg.com.au"
                 },
                 {
                     "name": "iiNet",
                     "domain": "www.iinet.net.au",
-                    "twitter": ""
+                    "twitter": "iiNet"
                 },
                 {
                     "name": "westnet",
                     "domain": "www.westnet.com.au",
-                    "twitter": ""
+                    "twitter": "westnet"
                 },
                 {
                     "name": "Telstra",
                     "domain": "www.telstra.com.au",
-                    "twitter": ""
+                    "twitter": "telstra"
                 },
                 {
                     "name": "Optus",
                     "domain": "www.optus.com.au",
-                    "twitter": ""
+                    "twitter": "optus"
                 },
                 {
                     "name": "NBNco",
                     "domain": "www.optus.com.au",
-                    "twitter": ""
+                    "twitter": "nbnco"
                 }
             ]
         },
