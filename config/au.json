@@ -127,12 +127,12 @@
                 {
                     "name": "Myer",
                     "domain": "www.myer.com.au",
-                    "twitter": ""
+                    "twitter": "Myer"
                 },
                 {
                     "name": "Woolworths",
                     "domain": "www.woolworths.com.au",
-                    "twitter": ""
+                    "twitter": "woolworths"
                 },
                 {
                     "name": "Coles",
@@ -147,22 +147,22 @@
                 {
                     "name": "Big W",
                     "domain": "www.bigw.com.au",
-                    "twitter": ""
+                    "twitter": "bigw"
                 },
                 {
                     "name": "JB Hifi",
                     "domain": "www.jbhifi.com.au",
-                    "twitter": ""
+                    "twitter": "jbhifi"
                 },
                 {
                     "name": "Bunnings Warehouse",
                     "domain": "www.bunnings.com.au",
-                    "twitter": ""
+                    "twitter": "bunnings"
                 },
                 {
                     "name": "Officeworks",
                     "domain": "www.officeworks.com.au",
-                    "twitter": ""
+                    "twitter": "officeworks"
                 }
             ]
         },
