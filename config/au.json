@@ -5,7 +5,7 @@
             "linkname": "news",
             "sites": [
                 {
-                    "name": "ABC News",
+                    "name": "Australian Broadcasting Corporation",
                     "domain": "www.abc.net.au",
                     "twitter": "abcaustralia"
                 },
@@ -190,7 +190,7 @@
                     "twitter": "iiNet"
                 },
                 {
-                    "name": "westnet",
+                    "name": "Westnet",
                     "domain": "www.westnet.com.au",
                     "twitter": "westnet"
                 },
@@ -221,7 +221,7 @@
                     "twitter": "whirlpoolnetau"
                 },
                 {
-                    "name": "iTnews",
+                    "name": "ITnews",
                     "domain": "www.itnews.com.au",
                     "twitter": "itnews_au"
                 },
