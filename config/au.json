@@ -326,17 +326,17 @@
                 {
                     "name": "Monash University",
                     "domain": "www.monash.edu.au",
-                    "twitter": ""
+                    "twitter": "monashuni"
                 },
                 {
                     "name": "The University of Adelaide",
                     "domain": "www.adelaide.edu.au",
-                    "twitter": ""
+                    "twitter": "uniofadelaide"
                 },
                 {
                     "name": "University of South Australia",
                     "domain": "www.unisa.edu.au",
-                    "twitter": ""
+                    "twitter": "universitysa"
                 }
             ]
         },
@@ -347,17 +347,17 @@
                 {
                     "name": "AGL Energy",
                     "domain": "www.agl.com.au",
-                    "twitter": ""
+                    "twitter": "aglenergy"
                 },
                 {
                     "name": "EnergyAustralia",
                     "domain": "www.energyaustralia.com.au",
-                    "twitter": ""
+                    "twitter": "energyaustralia"
                 },
                 {
                     "name": "Origin Energy",
                     "domain": "www.originenergy.com.au",
-                    "twitter": ""
+                    "twitter": "originenergy"
                 }
             ]
         }
