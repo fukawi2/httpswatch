@@ -6,7 +6,7 @@
             "sites": [
                 {
                     "name": "ABC News",
-                    "domain": "www.abc.net.au"
+                    "domain": "www.abc.net.au",
                     "twitter": "abcaustralia"
                 },
                 {
@@ -32,17 +32,17 @@
                 },
                 {
                     "name": "The Guardian",
-                    "domain": "www.theguardian.com.au"
+                    "domain": "www.theguardian.com.au",
                     "twitter": "guardianaus"
                 },
                 {
                     "name": "Mumbrella",
-                    "domain": "mumbrella.com.au"
+                    "domain": "mumbrella.com.au",
                     "twitter": "mumbrella"
                 },
                 {
                     "name": "Crikey",
-                    "domain": "www.crikey.com.au"
+                    "domain": "www.crikey.com.au",
                     "twitter": "crikey_news"
                 }
             ]
@@ -172,12 +172,8 @@
                     "domain": "www.optus.com.au"
                 },
                 {
-                    "name": "Optus",
-                    "domain": "www.,
-                {
                     "name": "NBNco",
                     "domain": "www.optus.com.au"
-                }"
                 }
             ]
         },
