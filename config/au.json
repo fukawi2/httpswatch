@@ -7,6 +7,7 @@
                 {
                     "name": "ABC News",
                     "domain": "www.abc.net.au"
+                    "twitter": "abcaustralia"
                 },
                 {
                     "name": "SBS",
@@ -32,14 +33,17 @@
                 {
                     "name": "The Guardian",
                     "domain": "www.theguardian.com.au"
+                    "twitter": ""
                 },
                 {
                     "name": "Mumbrella",
                     "domain": "mumbrella.com.au"
+                    "twitter": "mumbrella"
                 },
                 {
                     "name": "Crikey",
                     "domain": "www.crikey.com.au"
+                    "twitter": "crikey_news"
                 }
             ]
         },
