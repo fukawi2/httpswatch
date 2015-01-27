@@ -20,10 +20,6 @@
         {
             "name": "New Zealand",
             "external": "https://httpswatch.nz/"
-        },
-        {
-            "name": "Sweden",
-            "external": "https://httpswatch.com/se"
         }
     ]
 }

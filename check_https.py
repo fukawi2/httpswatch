@@ -18,8 +18,10 @@ from urllib.parse import urlsplit
 
 import jinja2
 
+from lxml import etree, html
+
 PARALLELISM = 16
-USER_AGENT = "HTTPSWatchAU Bot (https://httpswatchau.net)"
+USER_AGENT = "Mozilla/5.0 Firefox/35.0 compatible HTTPSWatchAU Bot https://httpswatch.com.au"
 ANALYTICS = """<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,6 +32,18 @@ ga('create', 'UA-342043-4', 'auto');
 ga('send', 'pageview');
 </script>
 """
+META_XPATH = etree.XPath(
+    "//meta[not(ancestor::noscript) and re:test(@http-equiv, \"^refresh$\", \"i\")]",
+    namespaces={"re": "http://exslt.org/regular-expressions"}
+)
+MIXED_CONTENT_XPATH = etree.XPath(
+    """
+    //link[@ref="stylesheet" and starts-with(@href, "http://")] |
+    //script[starts-with(@src, "http://")] |
+    //img[not(ancestor::noscript) and starts-with(@src, "http://")]
+    """
+)
+
 log = logging.getLogger("check_https")
 
 
@@ -59,18 +73,27 @@ class Not200(Exception):
 def fetch_through_redirects(http, stop=None):
     path = "/"
     url = None
+    tree = None
     while True:
         http.request("GET", path, headers={"User-Agent": USER_AGENT})
         resp = http.getresponse()
-        if resp.status in (301, 302, 303, 307):
-            url = urlsplit(resp.getheader("Location"))
+        new_location = None
+        if resp.status == 200:
+            tree = html.parse(resp)
+            for meta in META_XPATH(tree):
+                m = re.match("0;\s*url=['\"](.+?)['\"]", meta.get("content"))
+                if m is not None:
+                    new_location = m.groups()[0]
+        elif resp.status in (301, 302, 303, 307):
+            resp.read()
+            new_location = resp.getheader("Location")
+        if new_location is not None:
+            url = urlsplit(new_location)
             if stop is not None and stop(url):
                 break
-            resp.read()
             resp.close()
             if url.netloc and url.netloc != http.host:
-                # Probably should actually handle this...
-                raise ValueError("Site redirects to a different domain.")
+                raise ValueError("{} redirects to a different domain.".format(url.netloc))
             path = url.path
             if not path.startswith("/"):
                 path = "/" + path
@@ -78,7 +101,12 @@ def fetch_through_redirects(http, stop=None):
         if resp.status != 200:
             raise Not200(resp.status)
         break
-    return url, resp
+    return url, resp, tree
+
+
+def has_mixed_content(tree):
+    s = MIXED_CONTENT_XPATH(tree)
+    return len(s) >= 1
 
 
 def check_one_site(site):
@@ -143,9 +171,12 @@ def check_one_site(site):
     try:
         def stop_on_http_or_domain_change(url):
             return url.scheme == "http" or (url.netloc and url.netloc != domain)
-        final, resp = fetch_through_redirects(http, stop_on_http_or_domain_change)
+        final, resp, tree = fetch_through_redirects(http, stop_on_http_or_domain_change)
         if final is not None and final.scheme == "http":
             https_load.fail("The HTTPS site redirects to HTTP.")
+            return
+        if tree is not None and has_mixed_content(tree):
+            https_load.fail("HTML page loaded over HTTPS has mixed content.")
             return
         good_sts = Check()
         checks.append(good_sts)
@@ -184,7 +215,7 @@ def check_one_site(site):
     try:
         def stop_on_https(url):
             return url.scheme == "https"
-        final, resp = fetch_through_redirects(http, stop_on_https)
+        final, resp, tree = fetch_through_redirects(http, stop_on_https)
         if final is not None and final.scheme == "https":
             http_redirect.succeed("HTTP site redirects to HTTPS.")
         else:
