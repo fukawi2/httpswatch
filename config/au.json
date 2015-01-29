@@ -56,14 +56,14 @@
             "linkname": "banks",
             "sites": [
                 {
+                    "name": "Bank of Queensland",
+                    "domain": "www.boq.com.au",
+                    "twitter": "boq"
+                },
+                {
                     "name": "ANZ",
                     "domain": "www.anz.com",
                     "twitter": "anz_au"
-                },
-                {
-                    "name": "Commonwealth",
-                    "domain": "www.commbank.com.au",
-                    "twitter": "commbank"
                 },
                 {
                     "name": "NAB",
@@ -101,9 +101,9 @@
                     "twitter": "stgeorgebank"
                 },
                 {
-                    "name": "Bank of Queensland",
-                    "domain": "www.boq.com.au",
-                    "twitter": "boq"
+                    "name": "Commonwealth",
+                    "domain": "www.commbank.com.au",
+                    "twitter": "commbank"
                 }
             ]
         },
@@ -125,24 +125,29 @@
                     "domain": "www.realestate.com.au"
                 },
                 {
-                    "name": "Myer",
-                    "domain": "www.myer.com.au",
-                    "twitter": "Myer"
-                },
-                {
                     "name": "Woolworths",
                     "domain": "www.woolworths.com.au",
                     "twitter": "woolworths"
                 },
                 {
-                    "name": "Coles",
-                    "domain": "www.coles.com.au",
-                    "twitter": "Coles"
-                },
-                {
                     "name": "Target",
                     "domain": "www.target.com.au",
                     "twitter": "targetaus"
+                },
+                {
+                    "name": "Bunnings Warehouse",
+                    "domain": "www.bunnings.com.au",
+                    "twitter": "bunnings"
+                },
+                {
+                    "name": "Myer",
+                    "domain": "www.myer.com.au",
+                    "twitter": "Myer"
+                },
+                                {
+                    "name": "Coles",
+                    "domain": "www.coles.com.au",
+                    "twitter": "Coles"
                 },
                 {
                     "name": "Big W",
@@ -153,11 +158,6 @@
                     "name": "JB Hifi",
                     "domain": "www.jbhifi.com.au",
                     "twitter": "jbhifi"
-                },
-                {
-                    "name": "Bunnings Warehouse",
-                    "domain": "www.bunnings.com.au",
-                    "twitter": "bunnings"
                 },
                 {
                     "name": "Officeworks",
@@ -181,10 +181,6 @@
                     "twitter": "adaminternet"
                 },
                 {
-                    "name": "TPG",
-                    "domain": "www.tpg.com.au"
-                },
-                {
                     "name": "iiNet",
                     "domain": "www.iinet.net.au",
                     "twitter": "iiNet"
@@ -195,11 +191,6 @@
                     "twitter": "westnet"
                 },
                 {
-                    "name": "Telstra",
-                    "domain": "www.telstra.com.au",
-                    "twitter": "telstra"
-                },
-                {
                     "name": "Optus",
                     "domain": "www.optus.com.au",
                     "twitter": "optus"
@@ -208,6 +199,15 @@
                     "name": "NBNco",
                     "domain": "www.nbnco.com.au",
                     "twitter": "nbnco"
+                },
+                {
+                    "name": "Telstra",
+                    "domain": "www.telstra.com.au",
+                    "twitter": "telstra"
+                },
+                {
+                    "name": "TPG",
+                    "domain": "www.tpg.com.au"
                 }
             ]
         },
@@ -215,11 +215,6 @@
             "name": "Technology",
             "linkname": "tech",
             "sites": [
-                {
-                    "name": "Whirlpool",
-                    "domain": "whirlpool.net.au",
-                    "twitter": "whirlpoolnetau"
-                },
                 {
                     "_comment": "iTnews is the correct capitalization according to their website",
                     "name": "iTnews",
@@ -232,18 +227,9 @@
                     "twitter": "linuxconfau"
                 },
                 {
-                    "name": "HTTPSWatchAU",
-                    "domain": "httpswatch.com.au"
-                },
-                {
                     "name": "Halfbrick Studios",
                     "domain": "halfbrick.com",
                     "twitter": "halfbrick"
-                },
-                {
-                    "name": "Atlassian",
-                    "domain": "www.atlassian.com",
-                    "twitter": "atlassian"
                 },
                 {
                     "name": "MYOB",
@@ -259,6 +245,20 @@
                     "name": "Risky Business InfoSec podcast",
                     "domain": "risky.biz",
                     "twitter": "riskybusiness"
+                },
+                {
+                    "name": "Atlassian",
+                    "domain": "www.atlassian.com",
+                    "twitter": "atlassian"
+                },
+                {
+                    "name": "Whirlpool",
+                    "domain": "whirlpool.net.au",
+                    "twitter": "whirlpoolnetau"
+                },
+                {
+                    "name": "HTTPSWatchAU",
+                    "domain": "httpswatch.com.au"
                 }
 
             ]
@@ -273,11 +273,6 @@
                     "twitter": "flightcentreau"
                 },
                 {
-                    "name": "Qantas",
-                    "domain": "www.qantas.com.au",
-                    "twitter": "qantas"
-                },
-                {
                     "name": "Tourism Australia",
                     "domain": "www.australia.com"
                 },
@@ -290,6 +285,11 @@
                     "name": "Webjet",
                     "domain": "www.webjet.com.au",
                     "twitter": "webjet_au"
+                },
+                {
+                    "name": "Qantas",
+                    "domain": "www.qantas.com.au",
+                    "twitter": "qantas"
                 }
             ]
         },
@@ -298,19 +298,9 @@
             "linkname": "universities",
             "sites": [
                 {
-                    "name": "University of Melbourne",
-                    "domain": "www.unimelb.edu.au",
-                    "twitter": "unimelb"
-                },
-                {
                     "name": "University of Sydney",
                     "domain": "www.sydney.edu.au",
                     "twitter": "sydney_uni"
-                },
-                {
-                    "name": "University of Queensland",
-                    "domain": "www.uq.edu.au",
-                    "twitter": "uq_news"
                 },
                 {
                     "name": "Australian National University",
@@ -336,6 +326,16 @@
                     "name": "University of South Australia",
                     "domain": "www.unisa.edu.au",
                     "twitter": "universitysa"
+                },
+                {
+                    "name": "University of Melbourne",
+                    "domain": "www.unimelb.edu.au",
+                    "twitter": "unimelb"
+                },
+                {
+                    "name": "University of Queensland",
+                    "domain": "www.uq.edu.au",
+                    "twitter": "uq_news"
                 }
             ]
         },
