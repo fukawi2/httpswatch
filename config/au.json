@@ -48,6 +48,11 @@
                     "name": "Crikey",
                     "domain": "www.crikey.com.au",
                     "twitter": "crikey_news"
+                },
+                {
+                    "name": "Mamamia",
+                    "domain": "www.mamamia.com.au",
+                    "twitter": "mamamia"
                 }
             ]
         },
