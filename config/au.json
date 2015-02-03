@@ -305,6 +305,11 @@
                     "name": "Qantas",
                     "domain": "www.qantas.com.au",
                     "twitter": "qantas"
+                },
+                {
+                    "name": "YHA Australia",
+                    "domain": "www.yha.com.au",
+                    "twitter": "yha_australia"
                 }
             ]
         },
