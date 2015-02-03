@@ -182,7 +182,7 @@
             ]
         },
         {
-            "name": "Internet Service Providers",
+            "name": "Internet Service/Mobile Providers",
             "linkname": "isps",
             "sites": [
                 {
@@ -223,6 +223,11 @@
                 {
                     "name": "TPG",
                     "domain": "www.tpg.com.au"
+                },
+                {
+                    "name": "Virgin Mobile",
+                    "domain": "www.virginmobile.com.au",
+                    "twitter": "virginmobileaus"
                 }
             ]
         },
