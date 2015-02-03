@@ -228,6 +228,11 @@
                     "name": "Virgin Mobile",
                     "domain": "www.virginmobile.com.au",
                     "twitter": "virginmobileaus"
+                },
+                {
+                    "name": "Amaysim",
+                    "domain": "www.amaysim.com.au",
+                    "twitter": "amaysimau"
                 }
             ]
         },
