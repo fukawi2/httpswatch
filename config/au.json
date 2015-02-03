@@ -379,6 +379,17 @@
                     "twitter": "originenergy"
                 }
             ]
+        },
+        {
+            "name": "Other",
+            "linkname": "other",
+            "sites": [
+                {
+                    "name": "Australian Football League",
+                    "domain": "www.afl.com.au",
+                    "twitter": "AFL"
+                }
+            ]
         }
     ]
 }
