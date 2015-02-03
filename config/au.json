@@ -104,6 +104,11 @@
                     "name": "Commonwealth",
                     "domain": "www.commbank.com.au",
                     "twitter": "commbank"
+                },
+                {
+                    "name": "People’s Choice Credit Union",
+                    "domain": "www.peopleschoicecu.com.au",
+                    "twitter": "peopleschoiceau"
                 }
             ]
         },
