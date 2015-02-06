@@ -65,7 +65,8 @@
                 },
                 {
                     "name": "Bureau of Meteorology",
-                    "domain": "www.bom.gov.au"
+                    "domain": "www.bom.gov.au",
+                    "twitter": "BOM_au"
                 },
                 {
                     "name": "Australian Cyber Security Centre",
