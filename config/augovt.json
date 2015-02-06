@@ -120,6 +120,11 @@
                 {
                     "name": "VicRoads",
                     "domain": "www.vicroads.vic.gov.au"
+                },
+                {
+                    "name": "State Library Victoria",
+                    "domain": "www.slv.vic.gov.au",
+                    "twitter": "Library_Viic"
                 }
             ]
         },
