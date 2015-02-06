@@ -128,10 +128,8 @@ def check_one_site(site):
     context = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
 
     context.options |= ssl.OP_NO_SSLv2 | ssl.OP_NO_SSLv3
-
     # Some platforms (OS X) do not have OP_NO_COMPRESSION
-    if hasattr(ssl, "OP_NO_COMPRESSION"):
-        context.options |= ssl.OP_NO_COMPRESSION
+    context.options |= getattr(ssl, "OP_NO_COMPRESSION", 0)
 
     context.verify_mode = ssl.CERT_REQUIRED
     context.check_hostname = True
@@ -159,8 +157,13 @@ def check_one_site(site):
         error_name = errno.errorcode[e.errno]
         good_connection.fail("<code>connect()</code> returns with error {}.".format(error_name))
         return
-    good_connection.succeed("A verified TLS connection can be established. "
-                            "(<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs report</a>)".format(domain))
+    msg = "A verified TLS connection can be established. "
+    grade = site.get("ssllabs_grade")
+    if grade is not None:
+        msg += "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs grade</a> is " + grade + "."
+    else:
+        msg += "(<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs report</a>)"
+    good_connection.succeed(msg.format(domain))
 
     mediocre = False
 
@@ -176,7 +179,7 @@ def check_one_site(site):
             https_load.fail("The HTTPS site redirects to HTTP.")
             return
         if tree is not None and has_mixed_content(tree):
-            https_load.fail("HTML page loaded over HTTPS has mixed content.")
+            https_load.fail("The HTML page loaded over HTTPS has mixed content.")
             return
         good_sts = Check()
         checks.append(good_sts)
@@ -237,9 +240,13 @@ def check_one_site(site):
     site["status"] = "mediocre" if mediocre else "good"
 
 
-def regenerate_everything():
+def regenerate_everything(ssllabs_grades_file):
     with open("config/meta.json", "r", encoding="utf-8") as fp:
         meta = json.load(fp)
+    ssllabs_grades = {}
+    if ssllabs_grades_file is not None:
+        with open(ssllabs_grades_file, "r", encoding="utf-8") as fp:
+            ssllabs_grades = json.load(fp)
     futures = []
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=PARALLELISM)
     for listing in meta["listings"]:
@@ -249,6 +256,9 @@ def regenerate_everything():
             listing["data"] = json.load(fp)
         for cat in listing["data"]["categories"]:
             for site in cat["sites"]:
+                domain = site["domain"]
+                if domain in ssllabs_grades:
+                    site["ssllabs_grade"] = ssllabs_grades[domain]
                 futures.append(executor.submit(check_one_site, site))
     with executor:
         while True:
@@ -281,6 +291,7 @@ def encode_check(o):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cached", action="store_true")
+    parser.add_argument("--ssllabs")
 
     args = parser.parse_args()
 
@@ -288,7 +299,7 @@ def main():
         with open("cache.json", "r", encoding="utf-8") as fp:
             meta = json.load(fp)
     else:
-        meta = regenerate_everything()
+        meta = regenerate_everything(args.ssllabs)
         with open("cache.json", "w", encoding="utf-8") as fp:
             json.dump(meta, fp, default=encode_check)
 
