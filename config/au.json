@@ -61,19 +61,24 @@
             "linkname": "banks",
             "sites": [
                 {
+                    "name": "HSBC",
+                    "domain": "hsbc.com.au",
+                    "twitter": "hsbc_aus_help"
+                },
+                {
                     "name": "Bank of Queensland",
                     "domain": "www.boq.com.au",
                     "twitter": "boq"
                 },
                 {
-                    "name": "ANZ",
-                    "domain": "www.anz.com",
-                    "twitter": "anz_au"
-                },
-                {
                     "name": "ME Bank",
                     "domain": "www.mebank.com.au",
                     "twitter": "mebank"
+                },
+                {
+                    "name": "ANZ",
+                    "domain": "www.anz.com",
+                    "twitter": "anz_au"
                 },
                 {
                     "name": "NAB",
@@ -101,24 +106,19 @@
                     "twitter": "bankwest"
                 },
                 {
-                    "name": "HSBC",
-                    "domain": "hsbc.com.au",
-                    "twitter": "hsbc_aus_help"
-                },
-                {
                     "name": "St.George",
                     "domain": "www.stgeorge.com.au",
                     "twitter": "stgeorgebank"
                 },
                 {
-                    "name": "Commonwealth",
-                    "domain": "www.commbank.com.au",
-                    "twitter": "commbank"
-                },
-                {
                     "name": "People’s Choice Credit Union",
                     "domain": "www.peopleschoicecu.com.au",
                     "twitter": "peopleschoiceau"
+                },
+                {
+                    "name": "Commonwealth",
+                    "domain": "www.commbank.com.au",
+                    "twitter": "commbank"
                 }
             ]
         },
