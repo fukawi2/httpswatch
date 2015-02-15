@@ -87,39 +87,17 @@ class Not200(Exception):
         self.status = status
 
 
-class ConnectionError(Exception):
-
-    def __init__(self, status):
-        super(Exception, self).__init__()
-        self.status = status
-
-
-class InvalidCert(Exception):
-
-    def __init__(self, status):
-        super(Exception, self).__init__()
-        self.status = status
-
-
 def fetch_through_redirects(url):
     tree = None
     while True:
         cont = False
-        try:
-            resp = requests.get(
-                url,
-                verify="moz-certs.pem",
-                headers={"User-Agent": USER_AGENT},
-                timeout=10,
-                stream=True,
-            )
-        except requests.exceptions.ConnectionError:
-            raise ConnectionError('Connection reset by peer')
-        except requests.exceptions.SSLError as e:
-            # certificate presentied is not trusted?
-            # we don't actually need to do anything different, but we
-            # have to catch the exception
-            raise InvalidCert('Untrusted certificate')
+        resp = requests.get(
+            url,
+            verify="moz-certs.pem",
+            headers={"User-Agent": USER_AGENT},
+            timeout=10,
+            stream=True,
+        )
         try:
             if resp.status_code != 200:
                 raise Not200(resp.status_code)
@@ -231,12 +209,6 @@ def check_https_page(info):
     except Not200 as e:
         https_load.fail("The HTTPS site returns an error status ({}) on request.".format(e.status))
         return
-    except ConnectionError as e:
-        https_load.fail("The HTTPS site returns a connection error: ({}).".format(e.status))
-        return
-    except InvalidCert as e:
-        https_load.fail("The HTTPS site returns an invalid certificate: ({}).".format(e.status))
-        return
     info.can_load_https_page = True
     https_load.succeed("A page can be successfully fetched over HTTPS.")
 
@@ -255,9 +227,6 @@ def check_http_page(info):
         return
     except Not200 as e:
         http_redirect.fail("The HTTP site returns an error status ({}) on request.".format(e.status))
-        return
-    except ConnectionError as e:
-        https_load.fail("The HTTPS site returns a connection error: ({}).".format(e.status))
         return
 
 
