@@ -19,7 +19,7 @@ import requests
 from lxml import etree, html
 
 PARALLELISM = 16
-USER_AGENT = "Mozilla/5.0 Firefox/35.0 compatible HTTPSWatchAU Bot https://httpswatch.com.au"
+USER_AGENT = "Mozilla/5.0 compatible HTTPSWatchAU Bot https://httpswatch.com.au"
 ANALYTICS = """<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -209,6 +209,9 @@ def check_https_page(info):
     except Not200 as e:
         https_load.fail("The HTTPS site returns an error status ({}) on request.".format(e.status))
         return
+    except requests.ConnectionError:
+        https_load.fail("Connection error when connecting to the HTTPS site.")
+        return
     info.can_load_https_page = True
     https_load.succeed("A page can be successfully fetched over HTTPS.")
 
@@ -224,6 +227,9 @@ def check_http_page(info):
             http_redirect.fail("HTTP site doesn't redirect to HTTPS.")
     except requests.Timeout:
         http_redirect.fail("The HTTP site times out.")
+        return
+    except requests.ConnectionError:
+        http_redirect.fail("Nothing is listening on port 80")
         return
     except Not200 as e:
         http_redirect.fail("The HTTP site returns an error status ({}) on request.".format(e.status))
