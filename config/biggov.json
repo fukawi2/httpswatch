@@ -41,74 +41,6 @@
                     "domain":"asbestossafety.gov.au"
                 },
                 {
-                    "name":"Access to Justice",
-                    "domain":"accesstojustice.gov.au"
-                },
-                {
-                    "name":"Administrative Review Council",
-                    "domain":"arc.ag.gov.au"
-                },
-                {
-                    "name":"Attorney-General; Minister for the Arts",
-                    "domain":"attorneygeneral.gov.au"
-                },
-                {
-                    "name":"Attorney-General's Department",
-                    "domain":"ag.gov.au"
-                },
-                {
-                    "name":"Australian Emergency Management ",
-                    "domain":"em.gov.au"
-                },
-                {
-                    "name":"Australian National Security",
-                    "domain":"nationalsecurity.gov.au"
-                },
-                {
-                    "name":"CERT Australia",
-                    "domain":"cert.gov.au"
-                },
-                {
-                    "name":"Australian Classification - films, etc.",
-                    "domain":"classification.gov.au"
-                },
-                {
-                    "name":"ComLaw - Commonwealth of Australia Law",
-                    "domain":"comlaw.gov.au"
-                },
-                {
-                    "name":"Disaster Assist",
-                    "domain":"disasterassist.gov.au"
-                },
-                {
-                    "name":"Disaster resilience education for schools",
-                    "domain":"schools.aemi.edu.au"
-                },
-                {
-                    "name":"Pacific Islands Law Officers' Network",
-                    "domain":"pilonsec.org"
-                },
-                {
-                    "name":"Protective Security Policy Framework (PSPF)",
-                    "domain":"protectivesecurity.gov.au"
-                },
-                {
-                    "name":"Triple Zero (000) - Australia's emergency call service",
-                    "domain":"triplezero.gov.au"
-                },
-                {
-                    "name":"Trusted Information Sharing Network",
-                    "domain":"tisn.gov.au"
-                },
-                {
-                    "name":"Minister for Justice",
-                    "domain":"ministerjustice.gov.au"
-                },
-                {
-                    "name":"Living Safe Together",
-                    "domain":"livingsafetogether.gov.aupageshome.aspx"
-                },
-                {
                     "name":"Auditing and Assurance Standards Board",
                     "domain":"auasb.gov.au"
                 },
@@ -3355,6 +3287,80 @@
                 {
                     "name":"Workplace Gender Equality Agency",
                     "domain":"wgea.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Attorney-General's Department",
+            "linkname": "AGD",
+            "sites": [
+                {
+                    "name":"Access to Justice",
+                    "domain":"accesstojustice.gov.au"
+                },
+                {
+                    "name":"Administrative Review Council",
+                    "domain":"arc.ag.gov.au"
+                },
+                {
+                    "name":"Attorney-General; Minister for the Arts",
+                    "domain":"attorneygeneral.gov.au"
+                },
+                {
+                    "name":"Attorney-General's Department",
+                    "domain":"ag.gov.au"
+                },
+                {
+                    "name":"Australian Emergency Management ",
+                    "domain":"em.gov.au"
+                },
+                {
+                    "name":"Australian National Security",
+                    "domain":"nationalsecurity.gov.au"
+                },
+                {
+                    "name":"CERT Australia",
+                    "domain":"cert.gov.au"
+                },
+                {
+                    "name":"Australian Classification - films, etc.",
+                    "domain":"classification.gov.au"
+                },
+                {
+                    "name":"ComLaw - Commonwealth of Australia Law",
+                    "domain":"comlaw.gov.au"
+                },
+                {
+                    "name":"Disaster Assist",
+                    "domain":"disasterassist.gov.au"
+                },
+                {
+                    "name":"Disaster resilience education for schools",
+                    "domain":"schools.aemi.edu.au"
+                },
+                {
+                    "name":"Pacific Islands Law Officers' Network",
+                    "domain":"pilonsec.org"
+                },
+                {
+                    "name":"Protective Security Policy Framework (PSPF)",
+                    "domain":"protectivesecurity.gov.au"
+                },
+                {
+                    "name":"Triple Zero (000) - Australia's emergency call service",
+                    "domain":"triplezero.gov.au"
+                },
+                {
+                    "name":"Trusted Information Sharing Network",
+                    "domain":"tisn.gov.au"
+                },
+                {
+                    "name":"Minister for Justice",
+                    "domain":"ministerjustice.gov.au"
+                },
+                {
+                    "name":"Living Safe Together",
+                    "domain":"livingsafetogether.gov.aupageshome.aspx"
                 }
             ]
         }
