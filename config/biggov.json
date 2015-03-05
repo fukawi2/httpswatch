@@ -893,86 +893,6 @@
                     "domain":"acorn.gov.au"
                 },
                 {
-                    "name":"ActivFire Register of Fire Protection Equipment",
-                    "domain":"activfire.gov.au"
-                },
-                {
-                    "name":"Australian Collaborative Land Evaluation Program",
-                    "domain":"clw.csiro.auaclep"
-                },
-                {
-                    "name":"Australian Paint Approval Scheme",
-                    "domain":"apas.gov.au"
-                },
-                {
-                    "name":"Australian Soil Resource Information System",
-                    "domain":"asris.csiro.au"
-                },
-                {
-                    "name":"Australia Telescope National Facility",
-                    "domain":"atnf.csiro.au"
-                },
-                {
-                    "name":"Australia Telescope Outreach and Education",
-                    "domain":"outreach.atnf.csiro.au"
-                },
-                {
-                    "name":"CSIRO - Commonwealth Scientific and Industrial Research Organisation",
-                    "domain":"csiro.au"
-                },
-                {
-                    "name":"CSIRO Energy Technology",
-                    "domain":"csiro.auorgET"
-                },
-                {
-                    "name":"CSIRO GrazPlan",
-                    "domain":"grazplan.csiro.au"
-                },
-                {
-                    "name":"CSIROpedia",
-                    "domain":"csiropedia.csiro.au"
-                },
-                {
-                    "name":"CSIRO Publishing",
-                    "domain":"publish.csiro.au"
-                },
-                {
-                    "name":"CSIRO Sensornets",
-                    "domain":"sensornets.csiro.au"
-                },
-                {
-                    "name":"CSIRO Solve",
-                    "domain":"solve.csiro.au"
-                },
-                {
-                    "name":"eWater",
-                    "domain":"ewater.com.au"
-                },
-                {
-                    "name":"Nuclear microprobe analysis at CSIRO",
-                    "domain":"nmp.csiro.au"
-                },
-                {
-                    "name":"Painting Contractors Certification Program",
-                    "domain":"apas.gov.aupccp"
-                },
-                {
-                    "name":"Pastures from space",
-                    "domain":"pasturesfromspace.csiro.au"
-                },
-                {
-                    "name":"Science Image",
-                    "domain":"scienceimage.csiro.au"
-                },
-                {
-                    "name":"Atlas of Living Australia",
-                    "domain":"ala.org.au"
-                },
-                {
-                    "name":"blogs@CSIRO",
-                    "domain":"blogs.csiro.au"
-                },
-                {
                     "name":"Dairy Australia",
                     "domain":"dairyaustralia.com.au"
                 },
@@ -3361,6 +3281,169 @@
                 {
                     "name":"Living Safe Together",
                     "domain":"livingsafetogether.gov.aupageshome.aspx"
+                }
+            ]
+        },
+        {
+            "name": "CSIRO, the Commonwealth Scientific and Industrial Research Organisation",
+            "linkname": "csiro",
+            "sites": [
+                {
+                    "name":"ActivFire Register of Fire Protection Equipment",
+                    "domain":"activfire.gov.au"
+                },
+                {
+                    "name":"Australian Collaborative Land Evaluation Program",
+                    "domain":"clw.csiro.auaclep"
+                },
+                {
+                    "name":"Australian Paint Approval Scheme",
+                    "domain":"apas.gov.au"
+                },
+                {
+                    "name":"Australian Soil Resource Information System",
+                    "domain":"asris.csiro.au"
+                },
+                {
+                    "name":"Australia Telescope National Facility",
+                    "domain":"atnf.csiro.au"
+                },
+                {
+                    "name":"Australia Telescope Outreach and Education",
+                    "domain":"outreach.atnf.csiro.au"
+                },
+                {
+                    "name":"CSIRO - Commonwealth Scientific and Industrial Research Organisation",
+                    "domain":"csiro.au"
+                },
+                {
+                    "name":"CSIRO Energy Technology",
+                    "domain":"csiro.auorgET"
+                },
+                {
+                    "name":"CSIRO GrazPlan",
+                    "domain":"grazplan.csiro.au"
+                },
+                {
+                    "name":"CSIROpedia",
+                    "domain":"csiropedia.csiro.au"
+                },
+                {
+                    "name":"CSIRO Publishing",
+                    "domain":"publish.csiro.au"
+                },
+                {
+                    "name":"CSIRO Sensornets",
+                    "domain":"sensornets.csiro.au"
+                },
+                {
+                    "name":"CSIRO Solve",
+                    "domain":"solve.csiro.au"
+                },
+                {
+                    "name":"eWater",
+                    "domain":"ewater.com.au"
+                },
+                {
+                    "name":"Nuclear microprobe analysis at CSIRO",
+                    "domain":"nmp.csiro.au"
+                },
+                {
+                    "name":"Painting Contractors Certification Program",
+                    "domain":"apas.gov.aupccp"
+                },
+                {
+                    "name":"Pastures from space",
+                    "domain":"pasturesfromspace.csiro.au"
+                },
+                {
+                    "name":"Science Image",
+                    "domain":"scienceimage.csiro.au"
+                },
+                {
+                    "name":"Atlas of Living Australia",
+                    "domain":"ala.org.au"
+                },
+                {
+                    "name":"blogs@CSIRO",
+                    "domain":"blogs.csiro.au"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
+                }
+            ]
+        },
+		{
+            "name": "",
+            "linkname": "",
+            "sites": [
+                {
+                    "name": "Sveriges Television",
+                    "domain": "www.svt.se",
+                    "twitter": "svt"
                 }
             ]
         }
