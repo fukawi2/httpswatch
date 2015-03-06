@@ -71,7 +71,7 @@
                 },
                 {
                     "name":"Living Safe Together",
-                    "domain":"livingsafetogether.gov.aupageshome.aspx"
+                    "domain":"livingsafetogether.gov.au"
                 }
             ]
         },
@@ -85,7 +85,7 @@
                 },
                 {
                     "name":"Australian Collaborative Land Evaluation Program",
-                    "domain":"clw.csiro.auaclep"
+                    "domain":"clw.csiro.au"
                 },
                 {
                     "name":"Australian Paint Approval Scheme",
@@ -106,10 +106,6 @@
                 {
                     "name":"CSIRO - Commonwealth Scientific and Industrial Research Organisation",
                     "domain":"csiro.au"
-                },
-                {
-                    "name":"CSIRO Energy Technology",
-                    "domain":"csiro.auorgET"
                 },
                 {
                     "name":"CSIRO GrazPlan",
