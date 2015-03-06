@@ -53,7 +53,7 @@ window.addEventListener("load", function onLoad() {
       <div class="site-status-summary">
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">{{ site.name|e }}</span>
-        <span class="site-domain">(<a href="https://{{ site.domain }}">{{ site.domain }}</a>)</span>
+        <span class="site-domain">(<a href="https://{{ site.domain }}" rel="nofollow">{{ site.domain }}</a>)</span>
         <span class="site-grade site-grade-{{ site.status }}">{{ site.status|title }}</span>
       </div>
       <div class="site-status-details">
@@ -64,6 +64,11 @@ window.addEventListener("load", function onLoad() {
             {{ check.description }}
         {% endfor %}
         </ul>
+        {% if site.comment is defined %}
+        <div class="site-comment">
+          {{ site.comment }}
+        </div>
+        {% endif %}
         {% if site.twitter is defined %}
         <div class="tweet-button-container">
         {% if site.status == "good" %}
