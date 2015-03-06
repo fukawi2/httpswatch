@@ -1,0 +1,164 @@
+{
+    "categories": [
+        {
+            "name": "Attorney-General's Department",
+            "linkname": "AGD",
+            "sites": [
+                {
+                    "name":"Access to Justice",
+                    "domain":"accesstojustice.gov.au"
+                },
+                {
+                    "name":"Administrative Review Council",
+                    "domain":"arc.ag.gov.au"
+                },
+                {
+                    "name":"Attorney-General; Minister for the Arts",
+                    "domain":"attorneygeneral.gov.au"
+                },
+                {
+                    "name":"Attorney-General's Department",
+                    "domain":"ag.gov.au"
+                },
+                {
+                    "name":"Australian Emergency Management ",
+                    "domain":"em.gov.au"
+                },
+                {
+                    "name":"Australian National Security",
+                    "domain":"nationalsecurity.gov.au"
+                },
+                {
+                    "name":"CERT Australia",
+                    "domain":"cert.gov.au"
+                },
+                {
+                    "name":"Australian Classification - films, etc.",
+                    "domain":"classification.gov.au"
+                },
+                {
+                    "name":"ComLaw - Commonwealth of Australia Law",
+                    "domain":"comlaw.gov.au"
+                },
+                {
+                    "name":"Disaster Assist",
+                    "domain":"disasterassist.gov.au"
+                },
+                {
+                    "name":"Disaster resilience education for schools",
+                    "domain":"schools.aemi.edu.au"
+                },
+                {
+                    "name":"Pacific Islands Law Officers' Network",
+                    "domain":"pilonsec.org"
+                },
+                {
+                    "name":"Protective Security Policy Framework (PSPF)",
+                    "domain":"protectivesecurity.gov.au"
+                },
+                {
+                    "name":"Triple Zero (000) - Australia's emergency call service",
+                    "domain":"triplezero.gov.au"
+                },
+                {
+                    "name":"Trusted Information Sharing Network",
+                    "domain":"tisn.gov.au"
+                },
+                {
+                    "name":"Minister for Justice",
+                    "domain":"ministerjustice.gov.au"
+                },
+                {
+                    "name":"Living Safe Together",
+                    "domain":"livingsafetogether.gov.aupageshome.aspx"
+                }
+            ]
+        },
+        {
+            "name": "CSIRO, the Commonwealth Scientific and Industrial Research Organisation",
+            "linkname": "csiro",
+            "sites": [
+                {
+                    "name":"ActivFire Register of Fire Protection Equipment",
+                    "domain":"activfire.gov.au"
+                },
+                {
+                    "name":"Australian Collaborative Land Evaluation Program",
+                    "domain":"clw.csiro.auaclep"
+                },
+                {
+                    "name":"Australian Paint Approval Scheme",
+                    "domain":"apas.gov.au"
+                },
+                {
+                    "name":"Australian Soil Resource Information System",
+                    "domain":"asris.csiro.au"
+                },
+                {
+                    "name":"Australia Telescope National Facility",
+                    "domain":"atnf.csiro.au"
+                },
+                {
+                    "name":"Australia Telescope Outreach and Education",
+                    "domain":"outreach.atnf.csiro.au"
+                },
+                {
+                    "name":"CSIRO - Commonwealth Scientific and Industrial Research Organisation",
+                    "domain":"csiro.au"
+                },
+                {
+                    "name":"CSIRO Energy Technology",
+                    "domain":"csiro.auorgET"
+                },
+                {
+                    "name":"CSIRO GrazPlan",
+                    "domain":"grazplan.csiro.au"
+                },
+                {
+                    "name":"CSIROpedia",
+                    "domain":"csiropedia.csiro.au"
+                },
+                {
+                    "name":"CSIRO Publishing",
+                    "domain":"publish.csiro.au"
+                },
+                {
+                    "name":"CSIRO Sensornets",
+                    "domain":"sensornets.csiro.au"
+                },
+                {
+                    "name":"CSIRO Solve",
+                    "domain":"solve.csiro.au"
+                },
+                {
+                    "name":"eWater",
+                    "domain":"ewater.com.au"
+                },
+                {
+                    "name":"Nuclear microprobe analysis at CSIRO",
+                    "domain":"nmp.csiro.au"
+                },
+                {
+                    "name":"Painting Contractors Certification Program",
+                    "domain":"apas.gov.aupccp"
+                },
+                {
+                    "name":"Pastures from space",
+                    "domain":"pasturesfromspace.csiro.au"
+                },
+                {
+                    "name":"Science Image",
+                    "domain":"scienceimage.csiro.au"
+                },
+                {
+                    "name":"Atlas of Living Australia",
+                    "domain":"ala.org.au"
+                },
+                {
+                    "name":"blogs@CSIRO",
+                    "domain":"blogs.csiro.au"
+                }
+            ]
+        }
+    ]
+}
