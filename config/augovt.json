@@ -125,6 +125,11 @@
                     "name": "State Library Victoria",
                     "domain": "www.slv.vic.gov.au",
                     "twitter": "Library_Viic"
+                },
+                {
+                    "name": "Country Fire Authority",
+                    "domain": "www.cfa.vic.gov.au",
+                    "twitter": "CFA_Updates"
                 }
             ]
         },
