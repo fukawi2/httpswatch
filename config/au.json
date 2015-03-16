@@ -408,6 +408,11 @@
                     "name": "Australian Football League",
                     "domain": "www.afl.com.au",
                     "twitter": "AFL"
+                },
+                {
+                    "name": "Get Up!",
+                    "domain": "www.getup.org.au",
+                    "twitter": "getup"
                 }
             ]
         }
