@@ -1925,6 +1925,28 @@
                     "domain":"www.anzacday.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Bureau of Meteorology",
+            "linkname": "Meteorology",
+            "sites": [
+                {
+                    "name":"Predictive Ocean Atmosphere Model for Australia",
+                    "domain":"poama.bom.gov.au"
+                },
+                {
+                    "name":"Bureau of Meteorology",
+                    "domain":"www.bom.gov.au"
+                },
+                {
+                    "name":"Centre for Australian Weather and Climate Research",
+                    "domain":"www.cawcr.gov.au"
+                },
+                {
+                    "name":"Radio and Space Weather Services",
+                    "domain":"www.ips.gov.au"
+                }
+            ]
         }
     ]
 }
