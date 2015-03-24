@@ -2093,6 +2093,42 @@
                     "domain":"www.scamwatch.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Electoral Commission",
+            "linkname": "AEC",
+            "sites": [
+                {
+                    "name":"Get Voting",
+                    "domain":"education.aec.gov.au"
+                },
+                {
+                    "name":"Australian Electoral Commission - Election results archive",
+                    "domain":"results.aec.gov.au"
+                },
+                {
+                    "name":"Australian Electoral Commission",
+                    "domain":"www.aec.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Australian Curriculum, Assessment and Reporting Authority",
+            "linkname": "Curriculum",
+            "sites": [
+                {
+                    "name":"Australian Curriculum, Assessment and Reporting Authority (ACARA)",
+                    "domain":"www.acara.edu.au"
+                },
+                {
+                    "name":"Foundation to Year 12 Australian Curriculum online",
+                    "domain":"www.australiancurriculum.edu.au"
+                },
+                {
+                    "name":"My School",
+                    "domain":"www.myschool.edu.au"
+                }
+            ]
         }
     ]
 }
