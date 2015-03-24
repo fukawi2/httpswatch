@@ -2267,6 +2267,28 @@
                     "domain":"www.myhospitals.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Clean Energy",
+            "linkname": "CleanEnergy",
+            "sites": [
+                {
+                    "name":"Clean Energy Finance Corporation",
+                    "domain":"www.cleanenergyfinancecorp.com.au"
+                },
+                {
+                    "name":"Renewable Energy Target",
+                    "domain":"ret.cleanenergyregulator.gov.au"
+                },
+                {
+                    "name":"Clean Energy Regulator",
+                    "domain":"www.cleanenergyregulator.gov.au"
+                },
+                {
+                    "name":"REC Registry",
+                    "domain":"www.rec-registry.gov.au"
+                }
+            ]
         }
     ]
 }
