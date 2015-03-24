@@ -1681,6 +1681,82 @@
                     "domain":"www.minister.immi.gov.au"
                 }
             ]
+        },
+        {
+            "name": "National Archives of Australia",
+            "linkname": "Archives",
+            "sites": [
+                {
+                    "name":"Constitution for a Nation",
+                    "domain":"constitution.naa.gov.au"
+                },
+                {
+                    "name":"Discovering Anzacs",
+                    "domain":"discoveringanzacs.naa.gov.au"
+                },
+                {
+                    "name":"Australia's Prime Ministers",
+                    "domain":"primeministers.naa.gov.au"
+                },
+                {
+                    "name":"Uncommon Lives",
+                    "domain":"uncommonlives.naa.gov.au"
+                },
+                {
+                    "name":"Vrroom - Virtual Reading Room",
+                    "domain":"vrroom.naa.gov.au"
+                },
+                {
+                    "name":"AGLS metadata standard",
+                    "domain":"www.agls.gov.au"
+                },
+                {
+                    "name":"Destination: Australia",
+                    "domain":"www.destinationaustralia.gov.au"
+                },
+                {
+                    "name":"Documenting a Democracy - Australia's story",
+                    "domain":"www.foundingdocs.gov.au"
+                },
+                {
+                    "name":"National Archives of Australia",
+                    "domain":"www.naa.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Geoscience Australia",
+            "linkname": "Geoscience",
+            "sites": [
+                {
+                    "name":"Australian Spatial Data Directory",
+                    "domain":"asdd.ga.gov.au"
+                },
+                {
+                    "name":"Sentinel",
+                    "domain":"sentinel.ga.gov.au"
+                },
+                {
+                    "name":"Australian Atlas of Mineral Resources, Mines & Processing Centres",
+                    "domain":"www.australianminesatlas.gov.au"
+                },
+                {
+                    "name":"Geoscience Australia",
+                    "domain":"www.ga.gov.au"
+                },
+                {
+                    "name":"Geoscience Portal - geoscience.gov.au",
+                    "domain":"www.geoscience.gov.au"
+                },
+                {
+                    "name":"Intergovernmental Committee on Surveying and Mapping",
+                    "domain":"www.icsm.gov.au"
+                },
+                {
+                    "name":"OzCoasts",
+                    "domain":"www.ozcoasts.gov.au"
+                }
+            ]
         }
     ]
 }
