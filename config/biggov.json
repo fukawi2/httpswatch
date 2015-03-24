@@ -1969,6 +1969,28 @@
                     "domain":"www.picturethesaurus.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Medibank Private Ltd",
+            "linkname": "Medibank",
+            "sites": [
+                {
+                    "name":"ahm - Health Insurance",
+                    "domain":"www.ahm.com.au"
+                },
+                {
+                    "name":"Medibank Private",
+                    "domain":"www.medibank.com.au"
+                },
+                {
+                    "name":"Medibank Health Solutions",
+                    "domain":"www.medibankhealth.com.au"
+                },
+                {
+                    "name":"Travel Doctor (travellers medical and vaccination centre)",
+                    "domain":"www.traveldoctor.com.au"
+                }
+            ]
         }
     ]
 }
