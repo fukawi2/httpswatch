@@ -2213,6 +2213,60 @@
                     "domain":"www.psmprogram.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Federal Police",
+            "linkname": "AFP",
+            "sites": [
+                {
+                    "name":"Australian Federal Police",
+                    "domain":"www.afp.gov.au"
+                },
+                {
+                    "name":"National Missing Persons Coordination Centre",
+                    "domain":"www.missingpersons.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Australian Institute of Criminology",
+            "linkname": "AIC",
+            "sites": [
+                {
+                    "name":"Australian Institute of Criminology",
+                    "domain":"www.aic.gov.au"
+                },
+                {
+                    "name":"Criminology Research Grants Program",
+                    "domain":"www.criminologyresearchcouncil.gov.au"
+                },
+                {
+                    "name":"Indigenous Justice Clearinghouse",
+                    "domain":"www.indigenousjustice.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Australian Institute of Health and Welfare",
+            "linkname": "HealthWelfare",
+            "sites": [
+                {
+                    "name":"METeOR - Metadata Online Registry",
+                    "domain":"meteor.aihw.gov.au"
+                },
+                {
+                    "name":"Mental health services in Australia",
+                    "domain":"mhsa.aihw.gov.au"
+                },
+                {
+                    "name":"Australian Institute of Health and Welfare",
+                    "domain":"www.aihw.gov.au"
+                },
+                {
+                    "name":"MyHospitals",
+                    "domain":"www.myhospitals.gov.au"
+                }
+            ]
         }
     ]
 }
