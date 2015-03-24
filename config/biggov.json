@@ -1895,6 +1895,36 @@
                     "domain":"www.tradeevents.australia.com"
                 }
             ]
+        },
+        {
+            "name": "Board of Studies NSW",
+            "linkname": "StudiesNSW",
+            "sites": [
+                {
+                    "name":"The Thai–Burma Railway and Hellfire Pass",
+                    "domain":"hellfire-pass.commemoration.gov.au"
+                },
+                {
+                    "name":"The Kokoda Track",
+                    "domain":"kokoda.commemoration.gov.au"
+                },
+                {
+                    "name":"Australia's involvement in the Korean War",
+                    "domain":"korean-war.commemoration.gov.au"
+                },
+                {
+                    "name":"Australian involvement in South-East Asian Conflicts",
+                    "domain":"se-asia.commemoration.gov.au"
+                },
+                {
+                    "name":"Australia and the Vietnam War",
+                    "domain":"vietnam-war.commemoration.gov.au"
+                },
+                {
+                    "name":"Anzac Day - teaching and learning about Anzac Day",
+                    "domain":"www.anzacday.gov.au"
+                }
+            ]
         }
     ]
 }
