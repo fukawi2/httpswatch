@@ -2027,6 +2027,24 @@
                     "domain":"www.getreading.com.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Communications and Media Authority",
+            "linkname": "MediaAuthority",
+            "sites": [
+                {
+                    "name":"Australian Communications and Media Authority",
+                    "domain":"www.acma.gov.au"
+                },
+                {
+                    "name":"Cybersmart",
+                    "domain":"www.cybersmart.gov.au"
+                },
+                {
+                    "name":"Do Not Call Register",
+                    "domain":"www.donotcall.gov.au"
+                }
+            ]
         }
     ]
 }
