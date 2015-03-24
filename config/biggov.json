@@ -2045,6 +2045,54 @@
                     "domain":"www.donotcall.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Customs and Border Protection Service",
+            "linkname": "Borderprotection",
+            "sites": [
+                {
+                    "name":"Maritime Travellers Processing Committee (MTPC)",
+                    "domain":"mtpc.govspace.gov.au"
+                },
+                {
+                    "name":"Anti-Dumping Commission",
+                    "domain":"www.adcommission.gov.au"
+                },
+                {
+                    "name":"Border Protection Command",
+                    "domain":"www.bpc.gov.au"
+                },
+                {
+                    "name":"Cargo Support",
+                    "domain":"www.cargosupport.gov.au"
+                },
+                {
+                    "name":"Australian Customs and Border Protection Service",
+                    "domain":"www.customs.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Australian Competition and Consumer Commission",
+            "linkname": "Consumer",
+            "sites": [
+                {
+                    "name":"Australian Competition and Consumer Commission",
+                    "domain":"www.accc.gov.au"
+                },
+                {
+                    "name":"Product Safety Australia",
+                    "domain":"www.productsafety.gov.au"
+                },
+                {
+                    "name":"Product Safety Recalls Australia",
+                    "domain":"www.recalls.gov.au"
+                },
+                {
+                    "name":"Scamwatch",
+                    "domain":"www.scamwatch.gov.au"
+                }
+            ]
         }
     ]
 }
