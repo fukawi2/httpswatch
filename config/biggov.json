@@ -1655,6 +1655,32 @@
                     "domain":"www.treasury.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Department of Immigration and Border Protection",
+            "linkname": "Immigration",
+            "sites": [
+                {
+                    "name":"Migration Blog",
+                    "domain":"migrationblog.immi.gov.au"
+                },
+                {
+                    "name":"SkillSelect Support",
+                    "domain":"skillselect.govspace.gov.au"
+                },
+                {
+                    "name":"Citizenship wizard",
+                    "domain":"www.citizenship.gov.au"
+                },
+                {
+                    "name":"Department of Immigration and Border Protection",
+                    "domain":"www.immi.gov.au"
+                },
+                {
+                    "name":"Minister for Immigration and Border Protection",
+                    "domain":"www.minister.immi.gov.au"
+                }
+            ]
         }
     ]
 }
