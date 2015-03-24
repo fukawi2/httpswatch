@@ -2173,6 +2173,46 @@
                     "domain":"www.taxsuperandyou.gov.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Sports Commission",
+            "linkname": "Sports",
+            "sites": [
+                {
+                    "name":"Australian Sports Commission Learning Portal",
+                    "domain":"learning.ausport.gov.au"
+                },
+                {
+                    "name":"Clearinghouse for Sport",
+                    "domain":"secure.ausport.gov.au"
+                },
+                {
+                    "name":"Australian Institute of Sport",
+                    "domain":"www.ausport.gov.au"
+                },
+                {
+                    "name":"Play by the Rules",
+                    "domain":"www.playbytherules.net.au"
+                }
+            ]
+        },
+        {
+            "name": "Australian Public Service Commission",
+            "linkname": "Public",
+            "sites": [
+                {
+                    "name":"Australian Public Service Commission",
+                    "domain":"www.apsc.gov.au"
+                },
+                {
+                    "name":"APSjobs",
+                    "domain":"www.apsjobs.gov.au"
+                },
+                {
+                    "name":"Public Sector Management (PSM) Program",
+                    "domain":"www.psmprogram.gov.au"
+                }
+            ]
         }
     ]
 }
