@@ -1991,6 +1991,42 @@
                     "domain":"www.traveldoctor.com.au"
                 }
             ]
+        },
+        {
+            "name": "Australian Bureau of Statistics",
+            "linkname": "Statistics",
+            "sites": [
+                {
+                    "name":"ABS BetaWorks",
+                    "domain":"betaworks.abs.gov.au"
+                },
+                {
+                    "name":"Australian Bureau of Statistics",
+                    "domain":"www.abs.gov.au"
+                },
+                {
+                    "name":"National Statistical Service",
+                    "domain":"www.nss.gov.au"
+                }
+            ]
+        },
+        {
+            "name": "Australia Council for the Arts",
+            "linkname": "Arts",
+            "sites": [
+                {
+                    "name":"Connecting: arts audiences online",
+                    "domain":"connectarts.australiacouncil.gov.au"
+                },
+                {
+                    "name":"Australia Council for the Arts",
+                    "domain":"www.australiacouncil.gov.au"
+                },
+                {
+                    "name":"Get Reading!",
+                    "domain":"www.getreading.com.au"
+                }
+            ]
         }
     ]
 }
