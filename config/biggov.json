@@ -1947,6 +1947,28 @@
                     "domain":"www.ips.gov.au"
                 }
             ]
+        },
+        {
+            "name": "National Library of Australia",
+            "linkname": "Library",
+            "sites": [
+                {
+                    "name":"National Treasures from Australia's great libraries",
+                    "domain":"nationaltreasures.nla.gov.au"
+                },
+                {
+                    "name":"South Seas Voyaging and Cross-Cultural Encounters in the Pacific (1760-1800)",
+                    "domain":"southseas.nla.gov.au"
+                },
+                {
+                    "name":"National Library of Australia",
+                    "domain":"www.nla.gov.au"
+                },
+                {
+                    "name":"Australian Pictorial Thesaurus",
+                    "domain":"www.picturethesaurus.gov.au"
+                }
+            ]
         }
     ]
 }
