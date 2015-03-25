@@ -266,11 +266,11 @@ def set_site_template_data_from_info(site, info):
 
     if (not info.secure_connection_works or
         not info.can_load_https_page or
-            info.https_redirects_to_http or
-            info.mixed_content):
+            info.https_redirects_to_http):
         status = "bad"
     elif (not info.http_redirects_to_https or
-          info.sts is None or info.sts < 2592000):
+          info.sts is None or info.sts < 2592000 or
+            info.mixed_content):
         status = "mediocre"
     else:
         status = "good"
