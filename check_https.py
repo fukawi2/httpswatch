@@ -66,9 +66,6 @@ class SiteInfo:
 
 class Check:
 
-    def __init__(self):
-        pass
-
     def succeed(self, desc):
         self.failed = False
         self.icon = "good"
@@ -190,10 +187,6 @@ def check_https_page(info):
             https_load.fail("The HTTPS site redirects to HTTP.")
             return
         info.can_load_https_page = True
-        info.mixed_content = tree is not None and has_mixed_content(tree)
-        if info.mixed_content:
-            https_load.fail("The HTML page loaded over HTTPS has mixed content.")
-            return
         good_sts = info.new_check()
         sts = resp.headers.get("Strict-Transport-Security")
         if sts is not None:
@@ -208,6 +201,10 @@ def check_https_page(info):
                 good_sts.fail("<code>Strict-Transport-Security</code> header doesn't contain a <code>max-age</code> directive.")
         else:
             good_sts.fail("<code>Strict-Transport-Security</code> header is not set.")
+        info.mixed_content = tree is not None and has_mixed_content(tree)
+        if info.mixed_content:
+            https_load.fail("The HTML page loaded over HTTPS has mixed content.")
+            return
     except requests.Timeout:
         https_load.fail("Requesting HTTPS page times out.")
         return
