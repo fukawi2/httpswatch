@@ -1845,6 +1845,10 @@
                 {
                     "name":"Public Sector Superannuation Scheme",
                     "domain":"www.pss.gov.au"
+                },
+                {
+                    "name":"Public Sector Superannuation Accumulation Plan",
+                    "domain":"www.pssap.gov.au"
                 }
             ]
         },
