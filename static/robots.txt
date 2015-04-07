@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /fonts/
+Disallow: /static/
