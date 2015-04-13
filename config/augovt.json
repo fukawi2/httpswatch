@@ -98,6 +98,14 @@
                 {
                     "name": "Roads and Maritime Services",
                     "domain": "www.rms.nsw.gov.au"
+                },
+                {
+                    "name": "Transport sydney Trains",
+                    "domain": "www.sydneytrains.info"
+                },
+                {
+                    "name": "Transport sydney Trains: Online tickets",
+                    "domain": "tickets.sydneytrains.info"
                 }
             ]
         },
