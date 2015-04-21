@@ -24,6 +24,10 @@
         {
             "name": "New Zealand",
             "external": "https://httpswatch.nz/"
+        },
+        {
+            "name": "Easteregg",
+            "external": "https://httpswatch.com.au/easteregg/index.html"
         }
     ]
 }
