@@ -10,6 +10,10 @@
             "shortname": "augovt"
         },
         {
+            "name": "ACT",
+            "shortname": "actgov"
+        },
+        {
             "name": "Federal Government",
             "shortname": "biggov"
         },
